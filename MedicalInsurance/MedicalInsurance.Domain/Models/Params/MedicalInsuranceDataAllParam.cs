@@ -45,5 +45,11 @@ namespace MedicalInsurance.Domain.Models.Params
         /// 组织机构
         /// </summary>
         public string OrgCode { get; set; }
+        /// <summary>
+        /// 身份证
+        /// </summary>
+      
+        public string IDCard { get; set; }
+
     }
 }

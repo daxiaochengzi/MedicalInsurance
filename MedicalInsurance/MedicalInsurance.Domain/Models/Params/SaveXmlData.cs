@@ -17,7 +17,17 @@ namespace MedicalInsurance.Domain.Models.Params
         public string 出参 { get; set; }
         public string 医保返回业务号 { get; set; }
         public string 医保交易码 { get; set; }
+        /// <summary>
+        /// 备注
+        /// </summary>
         [JsonIgnore]
-        public string DataId { get; set; }
+        public string Remark { get; set; }
+        /// <summary>
+        /// 身份证
+        /// </summary>
+        [JsonIgnore]
+        public string IDCard { get; set; }
+        
+
     }
 }

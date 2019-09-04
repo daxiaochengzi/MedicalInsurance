@@ -4171,11 +4171,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance.WebService.Basic\\MedicalInsurance.WebService.Basic.csproj",
+      "projectUniqueName": "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance.WebService.Basic\\MedicalInsurance.WebService.Basic.csproj",
       "projectName": "MedicalInsurance.WebService.Basic",
-      "projectPath": "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance.WebService.Basic\\MedicalInsurance.WebService.Basic.csproj",
+      "projectPath": "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance.WebService.Basic\\MedicalInsurance.WebService.Basic.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance.WebService.Basic\\obj\\",
+      "outputPath": "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance.WebService.Basic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4194,8 +4194,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance.Domain\\MedicalInsurance.Domain.csproj": {
-              "projectPath": "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance.Domain\\MedicalInsurance.Domain.csproj"
+            "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance.Domain\\MedicalInsurance.Domain.csproj": {
+              "projectPath": "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance.Domain\\MedicalInsurance.Domain.csproj"
             }
           }
         }

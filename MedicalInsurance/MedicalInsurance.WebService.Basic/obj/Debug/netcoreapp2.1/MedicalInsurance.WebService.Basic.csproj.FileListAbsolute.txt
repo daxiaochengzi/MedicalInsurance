@@ -48,3 +48,15 @@ C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebS
 C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\obj\Debug\netcoreapp2.1\MedicalInsurance.WebService.Basic.csproj.CopyComplete
 C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\obj\Debug\netcoreapp2.1\MedicalInsurance.WebService.Basic.dll
 C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\obj\Debug\netcoreapp2.1\MedicalInsurance.WebService.Basic.pdb
+C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\bin\Debug\netcoreapp2.1\MedicalInsurance.WebService.Basic.deps.json
+C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\bin\Debug\netcoreapp2.1\MedicalInsurance.WebService.Basic.dll
+C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\bin\Debug\netcoreapp2.1\MedicalInsurance.WebService.Basic.pdb
+C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\bin\Debug\netcoreapp2.1\MedicalInsurance.Domain.dll
+C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\bin\Debug\netcoreapp2.1\MedicalInsurance.Domain.pdb
+C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\obj\Debug\netcoreapp2.1\MedicalInsurance.WebService.Basic.csprojAssemblyReference.cache
+C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\obj\Debug\netcoreapp2.1\MedicalInsurance.WebService.Basic.csproj.CoreCompileInputs.cache
+C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\obj\Debug\netcoreapp2.1\MedicalInsurance.WebService.Basic.AssemblyInfoInputs.cache
+C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\obj\Debug\netcoreapp2.1\MedicalInsurance.WebService.Basic.AssemblyInfo.cs
+C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\obj\Debug\netcoreapp2.1\MedicalInsurance.WebService.Basic.csproj.CopyComplete
+C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\obj\Debug\netcoreapp2.1\MedicalInsurance.WebService.Basic.dll
+C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\obj\Debug\netcoreapp2.1\MedicalInsurance.WebService.Basic.pdb

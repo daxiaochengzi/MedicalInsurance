@@ -693,11 +693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\Quote.Core\\MedicalInsurance.Core.csproj",
+      "projectUniqueName": "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\Quote.Core\\MedicalInsurance.Core.csproj",
       "projectName": "MedicalInsurance.Core",
-      "projectPath": "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\Quote.Core\\MedicalInsurance.Core.csproj",
+      "projectPath": "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\Quote.Core\\MedicalInsurance.Core.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\Quote.Core\\obj\\",
+      "outputPath": "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\Quote.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

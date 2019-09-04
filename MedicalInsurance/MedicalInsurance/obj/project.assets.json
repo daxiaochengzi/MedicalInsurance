@@ -13460,11 +13460,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance.csproj",
+      "projectUniqueName": "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance.csproj",
       "projectName": "MedicalInsurance",
-      "projectPath": "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance.csproj",
+      "projectPath": "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\obj\\",
+      "outputPath": "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13483,14 +13483,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance.Domain\\MedicalInsurance.Domain.csproj": {
-              "projectPath": "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance.Domain\\MedicalInsurance.Domain.csproj"
+            "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance.Domain\\MedicalInsurance.Domain.csproj": {
+              "projectPath": "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance.Domain\\MedicalInsurance.Domain.csproj"
             },
-            "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\Quote.AspNetCore\\MedicalInsurance.AspNetCore.csproj": {
-              "projectPath": "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\Quote.AspNetCore\\MedicalInsurance.AspNetCore.csproj"
+            "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\Quote.AspNetCore\\MedicalInsurance.AspNetCore.csproj": {
+              "projectPath": "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\Quote.AspNetCore\\MedicalInsurance.AspNetCore.csproj"
             },
-            "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\Quote.Service\\MedicalInsurance.Service.csproj": {
-              "projectPath": "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\Quote.Service\\MedicalInsurance.Service.csproj"
+            "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\Quote.Service\\MedicalInsurance.Service.csproj": {
+              "projectPath": "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\Quote.Service\\MedicalInsurance.Service.csproj"
             }
           }
         }

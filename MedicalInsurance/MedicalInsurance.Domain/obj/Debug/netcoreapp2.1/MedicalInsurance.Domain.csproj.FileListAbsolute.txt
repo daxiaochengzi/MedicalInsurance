@@ -32,3 +32,12 @@ C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.Doma
 C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.Domain\obj\Debug\netcoreapp2.1\MedicalInsurance.Domain.AssemblyInfo.cs
 C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.Domain\obj\Debug\netcoreapp2.1\MedicalInsurance.Domain.dll
 C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.Domain\obj\Debug\netcoreapp2.1\MedicalInsurance.Domain.pdb
+C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance.Domain\bin\Debug\netcoreapp2.1\MedicalInsurance.Domain.deps.json
+C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance.Domain\bin\Debug\netcoreapp2.1\MedicalInsurance.Domain.dll
+C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance.Domain\bin\Debug\netcoreapp2.1\MedicalInsurance.Domain.pdb
+C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance.Domain\obj\Debug\netcoreapp2.1\MedicalInsurance.Domain.csprojAssemblyReference.cache
+C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance.Domain\obj\Debug\netcoreapp2.1\MedicalInsurance.Domain.csproj.CoreCompileInputs.cache
+C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance.Domain\obj\Debug\netcoreapp2.1\MedicalInsurance.Domain.AssemblyInfoInputs.cache
+C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance.Domain\obj\Debug\netcoreapp2.1\MedicalInsurance.Domain.AssemblyInfo.cs
+C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance.Domain\obj\Debug\netcoreapp2.1\MedicalInsurance.Domain.dll
+C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance.Domain\obj\Debug\netcoreapp2.1\MedicalInsurance.Domain.pdb

@@ -206,6 +206,12 @@
             <param name="param"></param>
             <returns></returns>
         </member>
+        <member name="M:MedicalInsurance.Controllers.TestController.GetServiceTime">
+            <summary>
+            获取服务器时间
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:MedicalInsurance.Controllers.ValuesController">
             <summary>
             

@@ -46,3 +46,15 @@ C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\obj\
 C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\obj\Debug\netcoreapp2.1\MedicalInsurance.AspNetCore.csproj.CopyComplete
 C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\obj\Debug\netcoreapp2.1\MedicalInsurance.AspNetCore.dll
 C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\obj\Debug\netcoreapp2.1\MedicalInsurance.AspNetCore.pdb
+C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\bin\Debug\netcoreapp2.1\MedicalInsurance.AspNetCore.deps.json
+C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\bin\Debug\netcoreapp2.1\MedicalInsurance.AspNetCore.dll
+C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\bin\Debug\netcoreapp2.1\MedicalInsurance.AspNetCore.pdb
+C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\bin\Debug\netcoreapp2.1\MedicalInsurance.Core.dll
+C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\bin\Debug\netcoreapp2.1\MedicalInsurance.Core.pdb
+C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\obj\Debug\netcoreapp2.1\MedicalInsurance.AspNetCore.csprojAssemblyReference.cache
+C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\obj\Debug\netcoreapp2.1\MedicalInsurance.AspNetCore.csproj.CoreCompileInputs.cache
+C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\obj\Debug\netcoreapp2.1\MedicalInsurance.AspNetCore.AssemblyInfoInputs.cache
+C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\obj\Debug\netcoreapp2.1\MedicalInsurance.AspNetCore.AssemblyInfo.cs
+C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\obj\Debug\netcoreapp2.1\MedicalInsurance.AspNetCore.csproj.CopyComplete
+C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\obj\Debug\netcoreapp2.1\MedicalInsurance.AspNetCore.dll
+C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\obj\Debug\netcoreapp2.1\MedicalInsurance.AspNetCore.pdb

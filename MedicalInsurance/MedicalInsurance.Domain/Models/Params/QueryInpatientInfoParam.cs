@@ -7,14 +7,14 @@ namespace MedicalInsurance.Domain.Models.Params
 {
   public  class QueryInpatientInfoParam
     {
-        ////// <summary>
-        // /// 住院号
-        // /// </summary>
-        //    /// </summary>
-        //    [Display(Name = "住院号")]
-        //    [Required(ErrorMessage = "{0}不能为空!!!")]
-        //    [StringLength(32, ErrorMessage = "住院号输入过长，不能超过32位")]
-        //    public string HospitalizationNumber { get; set; }
+        //// <summary>
+        /// 业务号
+        /// </summary>
+        /// </summary>
+        [Display(Name = "业务号")]
+        [Required(ErrorMessage = "{0}不能为空!!!")]
+        [StringLength(32, ErrorMessage = "业务号输入过长，不能超过32位")]
+        public string BusinessId { get; set; }
         /// <summary>
         /// 身份证
         /// </summary>

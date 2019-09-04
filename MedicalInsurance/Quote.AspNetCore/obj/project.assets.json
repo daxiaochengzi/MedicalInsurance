@@ -1253,11 +1253,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\Quote.AspNetCore\\MedicalInsurance.AspNetCore.csproj",
+      "projectUniqueName": "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\Quote.AspNetCore\\MedicalInsurance.AspNetCore.csproj",
       "projectName": "MedicalInsurance.AspNetCore",
-      "projectPath": "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\Quote.AspNetCore\\MedicalInsurance.AspNetCore.csproj",
+      "projectPath": "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\Quote.AspNetCore\\MedicalInsurance.AspNetCore.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\Quote.AspNetCore\\obj\\",
+      "outputPath": "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\Quote.AspNetCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1276,8 +1276,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\Quote.Core\\MedicalInsurance.Core.csproj": {
-              "projectPath": "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\Quote.Core\\MedicalInsurance.Core.csproj"
+            "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\Quote.Core\\MedicalInsurance.Core.csproj": {
+              "projectPath": "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\Quote.Core\\MedicalInsurance.Core.csproj"
             }
           }
         }

@@ -335,12 +335,15 @@ namespace MedicalInsurance.Service.Providers
                     DataAllId=Guid.NewGuid().ToString("N"),
                     BusinessId = param.业务ID,
                     CreateUserId = param.操作人员ID,
-                    DataId = param.DataId,
+                    DataId = param.发起交易的动作ID,
                     DataType = param.医保交易码,
                     OrgCode = param.机构ID,
                     ParticipationJson = param.入参,
                     ResultDataJson = param.出参,
-                    HisMedicalInsuranceId = param.发起交易的动作ID
+                    HisMedicalInsuranceId = param.发起交易的动作ID,
+                    Remark= param.Remark,
+                    IDCard= param.IDCard,
+
                 };
                 await _dataBaseHelpService.SaveMedicalInsuranceDataAll(saveParam);
             }

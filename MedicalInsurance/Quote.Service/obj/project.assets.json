@@ -6455,11 +6455,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\Quote.Service\\MedicalInsurance.Service.csproj",
+      "projectUniqueName": "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\Quote.Service\\MedicalInsurance.Service.csproj",
       "projectName": "MedicalInsurance.Service",
-      "projectPath": "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\Quote.Service\\MedicalInsurance.Service.csproj",
+      "projectPath": "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\Quote.Service\\MedicalInsurance.Service.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\Quote.Service\\obj\\",
+      "outputPath": "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\Quote.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6478,11 +6478,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance.WebService.Basic\\MedicalInsurance.WebService.Basic.csproj": {
-              "projectPath": "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance.WebService.Basic\\MedicalInsurance.WebService.Basic.csproj"
+            "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance.WebService.Basic\\MedicalInsurance.WebService.Basic.csproj": {
+              "projectPath": "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance.WebService.Basic\\MedicalInsurance.WebService.Basic.csproj"
             },
-            "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\WebService\\MedicalInsurance.WebService.csproj": {
-              "projectPath": "C:\\code\\MedicalInsurance\\MedicalInsurance\\MedicalInsurance\\WebService\\MedicalInsurance.WebService.csproj"
+            "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\WebService\\MedicalInsurance.WebService.csproj": {
+              "projectPath": "C:\\code\\git\\MedicalInsurance\\MedicalInsurance\\WebService\\MedicalInsurance.WebService.csproj"
             }
           }
         }

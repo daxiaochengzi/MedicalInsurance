@@ -523,7 +523,7 @@ namespace MedicalInsurance.Service.Providers
                                   ,[出院床位编码]
                                   ,[出院病区编码]
 
-                               FROM [dbo].[住院病人] where IsDelete=0 and 身份证号='{param.IdCard}' and   OrgCode='{param.InstitutionalNumber}'
+                               FROM [dbo].[住院病人] where IsDelete=0 and 业务ID='{param.BusinessId}' and   OrgCode='{param.InstitutionalNumber}'
                                    ";
 
                 var data = await _sqlConnection.QueryFirstAsync<QueryInpatientInfoDto>(strSql);
@@ -615,9 +615,11 @@ namespace MedicalInsurance.Service.Providers
                    ,BusinessId
                    ,HisMedicalInsuranceId
                    ,OrgCode
+                   ,IDCard
                     )
                 VALUES ('{param.DataAllId}','{param.ParticipationJson}','{param.DataType}','{param.DataId}'
-                      , '{param.Remark}','{param.CreateUserId}', GETDATE(),'{param.BusinessId}','{param.HisMedicalInsuranceId}','{param.OrgCode}')";
+                        , '{param.Remark}','{param.CreateUserId}', GETDATE(),'{param.BusinessId}'
+                        ,'{param.HisMedicalInsuranceId}','{param.OrgCode}','{param.IDCard}')";
                     var nums = await _sqlConnection.ExecuteAsync(insertSql, null, transaction);
                     transaction.Commit();
                 }
@@ -658,19 +660,19 @@ namespace MedicalInsurance.Service.Providers
                       ,[OrgCode]
                       ,[DeleteUserId]
                   FROM [dbo].[MedicalInsuranceDataAll] where DataId='{param.DataId}' and  DataType='{param.DataType}' and OrgCode='{param.OrgCode}' and BusinessId='{param.BusinessId}' and  DeleteTime is  null";
-               // var data = await _sqlConnection.QueryAsync(strSql);
+                 var data = await _sqlConnection.QueryFirstOrDefaultAsync<MedicalInsuranceDataAllDto>(strSql);
+              
+                //var data = _sqlConnection.QueryMultiple(strSql);
+                //if (data.Read()!=null && !data.IsConsumed)
+                //{
+                //     resultdata = data.Read<MedicalInsuranceDataAllDto>().Single();
 
-                var data = _sqlConnection.QueryMultiple(strSql);
-                if (data.Read()!=null && !data.IsConsumed)
-                {
-                     resultdata = data.Read<MedicalInsuranceDataAllDto>().Single();
 
+                    //    _sqlConnection.Close();
 
-                    _sqlConnection.Close();
-                   
-                }
+                    //}
 
-                return resultdata;
+                    return data!=null?data: resultdata;
 
 
             }

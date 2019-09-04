@@ -385,13 +385,15 @@ namespace MedicalInsurance.Controllers
                 var xmlData = new SaveXmlData()
                 {
                     验证码 = userBase.验证码,
-                    机构ID = userBase.机构编码,
+                    机构ID = param.OrgID,
                     医保交易码 = param.BsCode,
                     发起交易的动作ID = param.TransKey,
-                    业务ID = param.BID.ToString(),
+                    业务ID = param.BID,
                     医保返回业务号 = param.BusinessNumber,
                     入参 = param.Participation,
-                    出参 = param.ResultData
+                    出参 = param.ResultData,
+                    IDCard= param.IDCard,
+                    Remark = param.Remark
                 };
                 await _webServiceBasicService.SaveXmlData(xmlData);
                 y.Message = "医保信息回写成功";
@@ -414,7 +416,7 @@ namespace MedicalInsurance.Controllers
         /// <param name="param"></param>
         /// <returns></returns>
         [HttpPost]
-        public async Task<ApiJsonResultData> MedicalInsuranceDataAll([FromBody] MedicalInsuranceDataAllParam param)
+        public async Task<ApiJsonResultData> SaveMedicalInsuranceDataAll([FromBody] MedicalInsuranceDataAllParam param)
         {
             return await new ApiJsonResultData(ModelState).RunWithTryAsync(async y =>
             {
@@ -452,7 +454,7 @@ namespace MedicalInsurance.Controllers
                         {
                             验证码 = verificationCode.验证码,
                             机构编码 = verificationCode.机构编码,
-                            身份证号码 = "510821198604156818",
+                            身份证号码 = param.IdCard,
                             开始时间 = DateTime.Now.AddYears(-4).ToString("yyyy-MM-dd HH:mm:ss"),
                             结束时间 = "2020-04-27 11:09:00",
                             状态 = "0"
@@ -480,7 +482,7 @@ namespace MedicalInsurance.Controllers
         /// <param name="param"></param>
         /// <returns></returns>
         [HttpPost]
-        public async Task<ApiJsonResultData> SaveDataAllQuery([FromBody] MedicalInsuranceDataAllParamUIQueryParam param)
+        public async Task<ApiJsonResultData> MedicalInsuranceDataAllQuery([FromBody] MedicalInsuranceDataAllParamUIQueryParam param)
         {
             return await new ApiJsonResultData(ModelState).RunWithTryAsync(async y =>
             {
@@ -490,7 +492,20 @@ namespace MedicalInsurance.Controllers
 
             });
         }
+        /// <summary>
+        /// 获取服务器时间
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public async Task<ApiJsonResultData> GetServiceTime()
+        {
+            return await new ApiJsonResultData().RunWithTryAsync(async y =>
+            {// yyyyMMddHHmmss
+                y.Data =new ServiceTimeDto(){DataTime = DateTime.Now.ToString("yyyyMMdd HH:mm:ss") };
+                //var data = await webService.ExecuteSp(param.Params);
 
+            });
+        }
         [NonAction]
         private async Task<UserInfoDto> GetUserBaseInfo()
         {

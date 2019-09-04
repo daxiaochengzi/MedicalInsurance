@@ -1339,3 +1339,17 @@ The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'Encode
    at MedicalInsurance.Controllers.TestController.<>c__DisplayClass19_0.<<SaveDataAllQuery>b__0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 488
 --- End of stack trace from previous location where exception was thrown ---
    at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/9/4 15:18:29】Message:Cannot perform runtime binding on a null reference; StackTrace:   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at MedicalInsurance.Controllers.TestController.<>c.<<GetServiceTime>b__20_0>d.MoveNext() in C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 503
+--- End of stack trace from previous location where exception was thrown ---
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/9/4 15:19:10】Message:'object' does not contain a definition for 'Time'; StackTrace:   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at MedicalInsurance.Controllers.TestController.<>c.<<GetServiceTime>b__20_0>d.MoveNext() in C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 503
+--- End of stack trace from previous location where exception was thrown ---
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/9/4 15:19:11】Message:'object' does not contain a definition for 'Time'; StackTrace:   at CallSite.Target(Closure , CallSite , Object , String )
+   at MedicalInsurance.Controllers.TestController.<>c.<<GetServiceTime>b__20_0>d.MoveNext() in C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 503
+--- End of stack trace from previous location where exception was thrown ---
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
