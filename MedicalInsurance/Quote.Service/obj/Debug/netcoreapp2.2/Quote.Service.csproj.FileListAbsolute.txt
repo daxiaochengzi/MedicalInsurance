@@ -1,0 +1,9 @@
+E:\资料\资料\netcore\dappersNew\DapperTast\Quote.Service\bin\Debug\netcoreapp2.2\Quote.Service.deps.json
+E:\资料\资料\netcore\dappersNew\DapperTast\Quote.Service\bin\Debug\netcoreapp2.2\Quote.Service.dll
+E:\资料\资料\netcore\dappersNew\DapperTast\Quote.Service\bin\Debug\netcoreapp2.2\Quote.Service.pdb
+E:\资料\资料\netcore\dappersNew\DapperTast\Quote.Service\obj\Debug\netcoreapp2.2\Quote.Service.csprojAssemblyReference.cache
+E:\资料\资料\netcore\dappersNew\DapperTast\Quote.Service\obj\Debug\netcoreapp2.2\Quote.Service.csproj.CoreCompileInputs.cache
+E:\资料\资料\netcore\dappersNew\DapperTast\Quote.Service\obj\Debug\netcoreapp2.2\Quote.Service.AssemblyInfoInputs.cache
+E:\资料\资料\netcore\dappersNew\DapperTast\Quote.Service\obj\Debug\netcoreapp2.2\Quote.Service.AssemblyInfo.cs
+E:\资料\资料\netcore\dappersNew\DapperTast\Quote.Service\obj\Debug\netcoreapp2.2\Quote.Service.dll
+E:\资料\资料\netcore\dappersNew\DapperTast\Quote.Service\obj\Debug\netcoreapp2.2\Quote.Service.pdb

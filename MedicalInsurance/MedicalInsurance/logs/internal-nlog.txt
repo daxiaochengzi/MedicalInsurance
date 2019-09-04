@@ -1,0 +1,1341 @@
+【2019/8/2 星期五 下午 12:11:27】Message:IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.; StackTrace:   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token) in C:\agent2\_work\56\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 630
+   at MedicalInsurance.Helper.JwtHelper.SerializeJWT(String jwtStr) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Helper\JwtHelper.cs:line 73
+   at MedicalInsurance.Controllers.TestController.<PageList>b__1_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 27
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTry(ApiJsonResultData jsonResultEntry, Action`1 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 162
+【2019/8/2 星期五 下午 12:46:37】Message:IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.; StackTrace:   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token) in C:\agent2\_work\56\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 630
+   at MedicalInsurance.Helper.JwtHelper.SerializeJWT(String jwtStr) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Helper\JwtHelper.cs:line 73
+   at MedicalInsurance.Controllers.TestController.<PageList>b__1_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 27
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTry(ApiJsonResultData jsonResultEntry, Action`1 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 162
+【2019/8/2 星期五 下午 12:49:19】Message:IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.; StackTrace:   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token) in C:\agent2\_work\56\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 630
+   at MedicalInsurance.Helper.JwtHelper.SerializeJWT(String jwtStr) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Helper\JwtHelper.cs:line 73
+   at MedicalInsurance.Controllers.TestController.<PageList>b__1_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 27
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTry(ApiJsonResultData jsonResultEntry, Action`1 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 162
+【2019/8/2 星期五 下午 12:56:38】Message:IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.; StackTrace:   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token) in C:\agent2\_work\56\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 630
+   at MedicalInsurance.Helper.JwtHelper.SerializeJWT(String jwtStr) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Helper\JwtHelper.cs:line 73
+   at MedicalInsurance.Controllers.TestController.<PageList>b__1_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 29
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTry(ApiJsonResultData jsonResultEntry, Action`1 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 162
+【2019/8/2 星期五 下午 12:57:05】Message:IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.; StackTrace:   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token) in C:\agent2\_work\56\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 630
+   at MedicalInsurance.Helper.JwtHelper.SerializeJWT(String jwtStr) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Helper\JwtHelper.cs:line 73
+   at MedicalInsurance.Controllers.TestController.<PageList>b__1_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 29
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTry(ApiJsonResultData jsonResultEntry, Action`1 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 162
+【2019/8/2 星期五 下午 2:23:08】Message:IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.; StackTrace:   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token) in C:\agent2\_work\56\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 630
+   at MedicalInsurance.Helper.JwtHelper.SerializeJWT(String jwtStr) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Helper\JwtHelper.cs:line 73
+   at MedicalInsurance.Controllers.TestController.<PageList>b__1_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 29
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTry(ApiJsonResultData jsonResultEntry, Action`1 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 162
+【2019/8/2 星期五 下午 2:25:16】Message:Object reference not set to an instance of an object.; StackTrace:   at MedicalInsurance.Helper.JwtHelper.SerializeJWT(String jwtStr) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Helper\JwtHelper.cs:line 86
+   at MedicalInsurance.Controllers.TestController.<PageList>b__1_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 29
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTry(ApiJsonResultData jsonResultEntry, Action`1 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 162
+【2019/8/2 星期五 下午 2:31:12】Message:Object reference not set to an instance of an object.; StackTrace:   at MedicalInsurance.Helper.JwtHelper.SerializeJWT(String jwtStr) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Helper\JwtHelper.cs:line 88
+   at MedicalInsurance.Controllers.TestController.<PageList>b__1_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 29
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTry(ApiJsonResultData jsonResultEntry, Action`1 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 162
+【2019/8/2 星期五 下午 2:31:37】Message:Object reference not set to an instance of an object.; StackTrace:   at MedicalInsurance.Helper.JwtHelper.SerializeJWT(String jwtStr) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Helper\JwtHelper.cs:line 88
+   at MedicalInsurance.Controllers.TestController.<PageList>b__1_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 29
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTry(ApiJsonResultData jsonResultEntry, Action`1 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 162
+【2019/8/4 星期日 下午 12:23:46】Message:Object reference not set to an instance of an object.; StackTrace:   at WebService.MyWebService.<>c.<<ExecuteSP>b__0_0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\WebService\MyWebService.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at WebService.MyWebService.ExecuteSP() in C:\code\MedicalInsurance\MedicalInsurance\WebService\MyWebService.cs:line 14
+   at MedicalInsurance.Controllers.TestController.<>c.<<query_his_order_status>b__2_0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 49
+--- End of stack trace from previous location where exception was thrown ---
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/4 星期日 下午 12:35:24】Message:Object reference not set to an instance of an object.; StackTrace:   at WebService.MyWebService.<>c.<<ExecuteSP>b__0_0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\WebService\MyWebService.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at WebService.MyWebService.ExecuteSP() in C:\code\MedicalInsurance\MedicalInsurance\WebService\MyWebService.cs:line 14
+   at MedicalInsurance.Controllers.TestController.<>c.<<query_his_order_status>b__2_0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 49
+--- End of stack trace from previous location where exception was thrown ---
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/4 星期日 下午 12:38:32】Message:System.Web.Services.Protocols.SoapException: 服务器未能识别 HTTP 头 SOAPAction 的值: http://tempuri.org/IHospitalService/ExecuteSQL。
+   在 System.Web.Services.Protocols.Soap11ServerProtocolHelper.RouteRequest()
+   在 System.Web.Services.Protocols.SoapServerProtocol.Initialize()
+   在 System.Web.Services.Protocols.ServerProtocolFactory.Create(Type type, HttpContext context, HttpRequest request, HttpResponse response, Boolean& abortProcessing); StackTrace:   at System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(MethodCall methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(MethodInfo targetMethod, Object[] args)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Reflection.DispatchProxyGenerator.Invoke(Object[] args)
+   at generatedProxy_1.ExecuteSQL(String )
+   at WebService.MyWebService.<>c.<<ExecuteSP>b__0_0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\WebService\MyWebService.cs:line 33
+--- End of stack trace from previous location where exception was thrown ---
+   at WebService.MyWebService.ExecuteSP() in C:\code\MedicalInsurance\MedicalInsurance\WebService\MyWebService.cs:line 14
+   at MedicalInsurance.Controllers.TestController.<>c.<<query_his_order_status>b__2_0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 49
+--- End of stack trace from previous location where exception was thrown ---
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/4 星期日 下午 12:49:04】Message:Object reference not set to an instance of an object.; StackTrace:   at WebService.MyWebService.<>c.<<ExecuteSP>b__0_0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\WebService\MyWebService.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at WebService.MyWebService.ExecuteSP() in C:\code\MedicalInsurance\MedicalInsurance\WebService\MyWebService.cs:line 14
+   at MedicalInsurance.Controllers.TestController.<>c.<<query_his_order_status>b__2_0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 49
+--- End of stack trace from previous location where exception was thrown ---
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/5 星期一 下午 4:59:39】Message:Unexpected character encountered while parsing value: {. Path 'Msg', line 1, position 20.; StackTrace:   at Newtonsoft.Json.JsonTextReader.ReadStringValue(ReadType readType)
+   at Newtonsoft.Json.JsonTextReader.ReadAsString()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at MedicalInsurance.WebService.Basic.WebServiceBasic.<>c__DisplayClass0_0.<<HIS_InterfaceAsync>b__0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\WebServiceBasic.cs:line 38
+--- End of stack trace from previous location where exception was thrown ---
+   at MedicalInsurance.WebService.Basic.WebServiceBasic.HIS_InterfaceAsync(String tradeCode, String inputParameter) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\WebServiceBasic.cs:line 22
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetVerificationCode(String tradeCode, String inputParameter) in C:\code\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 29
+   at MedicalInsurance.Controllers.TestController.<Hospitalization>b__4_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 77
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/5 星期一 下午 5:00:00】Message:Unexpected character encountered while parsing value: {. Path 'Msg', line 1, position 20.; StackTrace:   at Newtonsoft.Json.JsonTextReader.ReadStringValue(ReadType readType)
+   at Newtonsoft.Json.JsonTextReader.ReadAsString()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at MedicalInsurance.WebService.Basic.WebServiceBasic.<>c__DisplayClass0_0.<<HIS_InterfaceAsync>b__0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\WebServiceBasic.cs:line 38
+--- End of stack trace from previous location where exception was thrown ---
+   at MedicalInsurance.WebService.Basic.WebServiceBasic.HIS_InterfaceAsync(String tradeCode, String inputParameter) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\WebServiceBasic.cs:line 22
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetVerificationCode(String tradeCode, String inputParameter) in C:\code\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 29
+   at MedicalInsurance.Controllers.TestController.<Hospitalization>b__4_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 77
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/5 星期一 下午 5:03:26】Message:Unexpected character encountered while parsing value: {. Path 'Msg', line 1, position 20.; StackTrace:   at Newtonsoft.Json.JsonTextReader.ReadStringValue(ReadType readType)
+   at Newtonsoft.Json.JsonTextReader.ReadAsString()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at MedicalInsurance.WebService.Basic.WebServiceBasic.<>c__DisplayClass0_0.<<HIS_InterfaceAsync>b__0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\WebServiceBasic.cs:line 38
+--- End of stack trace from previous location where exception was thrown ---
+   at MedicalInsurance.WebService.Basic.WebServiceBasic.HIS_InterfaceAsync(String tradeCode, String inputParameter) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\WebServiceBasic.cs:line 22
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetVerificationCode(String tradeCode, String inputParameter) in C:\code\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 29
+   at MedicalInsurance.Controllers.TestController.<Hospitalization>b__4_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 77
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/5 星期一 下午 5:11:07】Message:Cannot implicitly convert type 'Newtonsoft.Json.Linq.JObject' to 'string'. An explicit conversion exists (are you missing a cast?); StackTrace:   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetVerificationCode(String tradeCode, String inputParameter) in C:\code\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 32
+   at MedicalInsurance.Controllers.TestController.<Hospitalization>b__4_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 77
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/5 星期一 下午 5:13:00】Message:Cannot implicitly convert type 'Newtonsoft.Json.Linq.JObject' to 'string'. An explicit conversion exists (are you missing a cast?); StackTrace:   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetVerificationCode(String tradeCode, String inputParameter) in C:\code\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 32
+   at MedicalInsurance.Controllers.TestController.<Hospitalization>b__4_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 77
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/5 星期一 下午 6:04:05】Message:Object reference not set to an instance of an object.; StackTrace:   at CallSite.Target(Closure , CallSite , List`1 , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetInpatientInfo(String infoParam) in C:\code\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 49
+   at MedicalInsurance.Controllers.TestController.<Hospitalization>b__4_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 91
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/5 星期一 下午 6:04:39】Message:Object reference not set to an instance of an object.; StackTrace:   at CallSite.Target(Closure , CallSite , List`1 , Object )
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetInpatientInfo(String infoParam) in C:\code\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 49
+   at MedicalInsurance.Controllers.TestController.<Hospitalization>b__4_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 91
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/8 17:58:53】Message:Error converting value "目录类型错误，请检查！" to type 'System.Collections.Generic.List`1[System.Object]'. Path 'Msg', line 1, position 31.; StackTrace:   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at MedicalInsurance.WebService.Basic.WebServiceBasic.<>c__DisplayClass1_0.<<HIS_InterfaceListAsync>b__0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\WebServiceBasic.cs:line 82
+--- End of stack trace from previous location where exception was thrown ---
+   at MedicalInsurance.WebService.Basic.WebServiceBasic.HIS_InterfaceListAsync(String tradeCode, String inputParameter) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\WebServiceBasic.cs:line 56
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetInformation(InformationParam param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 283
+   at MedicalInsurance.Controllers.TestController.<GetInformation>b__5_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 131
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/8 18:00:45】Message:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server); StackTrace:   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at MedicalInsurance.Service.Providers.DataBaseHelpService.InformationInfoSave(List`1 param, InformationParam info) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseHelpService.cs:line 418
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetInformation(InformationParam param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 290
+   at MedicalInsurance.Controllers.TestController.<GetInformation>b__5_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 131
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/8 18:01:33】Message:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server); StackTrace:   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at MedicalInsurance.Service.Providers.DataBaseHelpService.InformationInfoSave(List`1 param, InformationParam info) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseHelpService.cs:line 418
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetInformation(InformationParam param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 290
+   at MedicalInsurance.Controllers.TestController.<GetInformation>b__5_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 131
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/8 18:01:40】Message:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server); StackTrace:   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at MedicalInsurance.Service.Providers.DataBaseHelpService.InformationInfoSave(List`1 param, InformationParam info) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseHelpService.cs:line 418
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetInformation(InformationParam param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 290
+   at MedicalInsurance.Controllers.TestController.<GetInformation>b__5_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 131
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/9 10:29:10】Message:Error converting value "<机构编码>不能为空，请检查！" to type 'System.Collections.Generic.List`1[System.Object]'. Path 'Msg', line 1, position 45.; StackTrace:   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at MedicalInsurance.WebService.Basic.WebServiceBasic.<>c__DisplayClass1_0.<<HIS_InterfaceListAsync>b__0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\WebServiceBasic.cs:line 82
+--- End of stack trace from previous location where exception was thrown ---
+   at MedicalInsurance.WebService.Basic.WebServiceBasic.HIS_InterfaceListAsync(String tradeCode, String inputParameter) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\WebServiceBasic.cs:line 56
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetCatalog(CatalogParam param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 72
+   at MedicalInsurance.Controllers.TestController.<GetCatalog>b__6_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 170
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/9 11:11:04】Message:Error converting value "目录类型错误，请检查！" to type 'System.Collections.Generic.List`1[System.Object]'. Path 'Msg', line 1, position 31.; StackTrace:   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at MedicalInsurance.WebService.Basic.WebServiceBasic.<>c__DisplayClass1_0.<<HIS_InterfaceListAsync>b__0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\WebServiceBasic.cs:line 82
+--- End of stack trace from previous location where exception was thrown ---
+   at MedicalInsurance.WebService.Basic.WebServiceBasic.HIS_InterfaceListAsync(String tradeCode, String inputParameter) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\WebServiceBasic.cs:line 56
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetCatalog(CatalogParam param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 73
+   at MedicalInsurance.Controllers.TestController.<GetCatalog>b__6_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 171
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/9 11:11:33】Message:Error converting value "目录类型错误，请检查！" to type 'System.Collections.Generic.List`1[System.Object]'. Path 'Msg', line 1, position 31.; StackTrace:   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at MedicalInsurance.WebService.Basic.WebServiceBasic.<>c__DisplayClass1_0.<<HIS_InterfaceListAsync>b__0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\WebServiceBasic.cs:line 82
+--- End of stack trace from previous location where exception was thrown ---
+   at MedicalInsurance.WebService.Basic.WebServiceBasic.HIS_InterfaceListAsync(String tradeCode, String inputParameter) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\WebServiceBasic.cs:line 56
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetCatalog(CatalogParam param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 73
+   at MedicalInsurance.Controllers.TestController.<GetCatalog>b__6_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 171
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/9 11:13:36】Message:Error converting value "目录类型错误，请检查！" to type 'System.Collections.Generic.List`1[System.Object]'. Path 'Msg', line 1, position 31.; StackTrace:   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at MedicalInsurance.WebService.Basic.WebServiceBasic.<>c__DisplayClass1_0.<<HIS_InterfaceListAsync>b__0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\WebServiceBasic.cs:line 82
+--- End of stack trace from previous location where exception was thrown ---
+   at MedicalInsurance.WebService.Basic.WebServiceBasic.HIS_InterfaceListAsync(String tradeCode, String inputParameter) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\WebServiceBasic.cs:line 56
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetCatalog(CatalogParam param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 73
+   at MedicalInsurance.Controllers.TestController.<GetCatalog>b__6_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 171
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/9 11:15:29】Message:Error converting value "目录类型错误，请检查！" to type 'System.Collections.Generic.List`1[System.Object]'. Path 'Msg', line 1, position 31.; StackTrace:   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at MedicalInsurance.WebService.Basic.WebServiceBasic.<>c__DisplayClass1_0.<<HIS_InterfaceListAsync>b__0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\WebServiceBasic.cs:line 82
+--- End of stack trace from previous location where exception was thrown ---
+   at MedicalInsurance.WebService.Basic.WebServiceBasic.HIS_InterfaceListAsync(String tradeCode, String inputParameter) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\WebServiceBasic.cs:line 56
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetCatalog(CatalogParam param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 73
+   at MedicalInsurance.Controllers.TestController.<GetCatalog>b__6_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 171
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/9 11:57:58】Message:Unable to cast object of type 'MedicalInsurance.Domain.Models.Params.UiCatalogParam' to type 'System.IConvertible'.; StackTrace:   at System.Convert.ToInt16(Object value)
+   at MedicalInsurance.Controllers.TestController.<>c__DisplayClass7_0.<<DeleteCatalog>b__0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 193
+--- End of stack trace from previous location where exception was thrown ---
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/9 11:59:09】Message:Unable to cast object of type 'MedicalInsurance.Domain.Models.Params.UiCatalogParam' to type 'System.IConvertible'.; StackTrace:   at System.Convert.ToInt16(Object value)
+   at MedicalInsurance.Controllers.TestController.<>c__DisplayClass7_0.<<DeleteCatalog>b__0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 193
+--- End of stack trace from previous location where exception was thrown ---
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/9 15:38:00】Message:Error converting value "目录类型错误，请检查！" to type 'System.Collections.Generic.List`1[System.Object]'. Path 'Msg', line 1, position 31.; StackTrace:   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at MedicalInsurance.WebService.Basic.WebServiceBasic.<>c__DisplayClass1_0.<<HIS_InterfaceListAsync>b__0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\WebServiceBasic.cs:line 82
+--- End of stack trace from previous location where exception was thrown ---
+   at MedicalInsurance.WebService.Basic.WebServiceBasic.HIS_InterfaceListAsync(String tradeCode, String inputParameter) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\WebServiceBasic.cs:line 56
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetICD10(String code, Int32 num) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 138
+   at MedicalInsurance.Controllers.TestController.<GetIcd10>b__8_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 211
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/9 15:39:19】Message:Error converting value "目录类型错误，请检查！" to type 'System.Collections.Generic.List`1[System.Object]'. Path 'Msg', line 1, position 31.; StackTrace:   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at MedicalInsurance.WebService.Basic.WebServiceBasic.<>c__DisplayClass1_0.<<HIS_InterfaceListAsync>b__0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\WebServiceBasic.cs:line 82
+--- End of stack trace from previous location where exception was thrown ---
+   at MedicalInsurance.WebService.Basic.WebServiceBasic.HIS_InterfaceListAsync(String tradeCode, String inputParameter) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\WebServiceBasic.cs:line 56
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetICD10(String code, Int32 num) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 138
+   at MedicalInsurance.Controllers.TestController.<GetIcd10>b__8_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 211
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/9 15:41:27】Message:“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。; StackTrace:   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param)
+   at MedicalInsurance.Service.Providers.DataBaseHelpService.AddICD10(List`1 param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseHelpService.cs:line 232
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetICD10(String code, Int32 num) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 145
+   at MedicalInsurance.Controllers.TestController.<GetIcd10>b__8_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 211
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/9 15:43:05】Message:“CreateTime”附近有语法错误。
+“CreateTime”附近有语法错误。; StackTrace:   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param)
+   at MedicalInsurance.Service.Providers.DataBaseHelpService.AddICD10(List`1 param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseHelpService.cs:line 239
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetICD10(String code, Int32 num) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 145
+   at MedicalInsurance.Controllers.TestController.<GetIcd10>b__8_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 211
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/9 15:47:05】Message:将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。; StackTrace:   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param)
+   at MedicalInsurance.Service.Providers.DataBaseHelpService.AddICD10(List`1 param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseHelpService.cs:line 234
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetICD10(String code, Int32 num) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 145
+   at MedicalInsurance.Controllers.TestController.<GetIcd10>b__8_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 211
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/9 15:48:21】Message:将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。; StackTrace:   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param)
+   at MedicalInsurance.Service.Providers.DataBaseHelpService.AddICD10(List`1 param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseHelpService.cs:line 234
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetICD10(String code, Int32 num) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 145
+   at MedicalInsurance.Controllers.TestController.<GetIcd10>b__8_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 211
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/9 15:50:09】Message:将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。; StackTrace:   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param)
+   at MedicalInsurance.Service.Providers.DataBaseHelpService.AddICD10(List`1 param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseHelpService.cs:line 234
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetICD10(String code, Int32 num) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 145
+   at MedicalInsurance.Controllers.TestController.<GetIcd10>b__8_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 211
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/9 15:51:59】Message:将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。; StackTrace:   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param)
+   at MedicalInsurance.Service.Providers.DataBaseHelpService.AddICD10(List`1 param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseHelpService.cs:line 234
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetICD10(String code, Int32 num) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 145
+   at MedicalInsurance.Controllers.TestController.<GetIcd10>b__8_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 211
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/9 15:53:01】Message:将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。; StackTrace:   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param)
+   at MedicalInsurance.Service.Providers.DataBaseHelpService.AddICD10(List`1 param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseHelpService.cs:line 234
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetICD10(String code, Int32 num) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 145
+   at MedicalInsurance.Controllers.TestController.<GetIcd10>b__8_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 211
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/9 15:54:26】Message:将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。; StackTrace:   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param)
+   at MedicalInsurance.Service.Providers.DataBaseHelpService.AddICD10(List`1 param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseHelpService.cs:line 234
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetICD10(String code, Int32 num) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 145
+   at MedicalInsurance.Controllers.TestController.<GetIcd10>b__8_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 211
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/9 15:59:12】Message:将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+将截断字符串或二进制数据。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。
+语句已终止。; StackTrace:   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param)
+   at MedicalInsurance.Service.Providers.DataBaseHelpService.AddICD10(List`1 param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseHelpService.cs:line 234
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetICD10(String code, Int32 num) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 145
+   at MedicalInsurance.Controllers.TestController.<GetIcd10>b__8_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 211
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/9 17:25:02】Message:INSERT 语句中列的数目大于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。; StackTrace:   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param)
+   at MedicalInsurance.Service.Providers.DataBaseHelpService.GetInpatientInfo(List`1 param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseHelpService.cs:line 459
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetInpatientInfo(String infoParam) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 206
+   at MedicalInsurance.Controllers.TestController.<GetInpatientInfo>b__4_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 95
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/9 星期五 下午 11:38:26】Message:配置服务发现后,服务名称不能为空!; StackTrace:   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetOutpatientDetailPerson(OutpatientDetailParam param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 188
+   at MedicalInsurance.Controllers.TestController.<GetOutpatientDetailPerson>b__7_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 231
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/10 星期六 下午 6:09:36】Message:123; StackTrace:   at MedicalInsurance.WebService.Basic.WebServiceBasic.<>c__DisplayClass1_0.<<HIS_InterfaceListAsync>b__0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\WebServiceBasic.cs:line 85
+--- End of stack trace from previous location where exception was thrown ---
+   at MedicalInsurance.WebService.Basic.WebServiceBasic.HIS_InterfaceListAsync(String tradeCode, String inputParameter) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\WebServiceBasic.cs:line 57
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetVerificationCode(String tradeCode, String inputParameter) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 35
+   at MedicalInsurance.Controllers.TestController.GetUserBaseInfo() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 376
+   at MedicalInsurance.Controllers.TestController.<GetOutpatientPerson>b__6_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 173
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/10 星期六 下午 6:10:27】Message:123; StackTrace:   at MedicalInsurance.WebService.Basic.WebServiceBasic.<>c__DisplayClass1_0.<<HIS_InterfaceListAsync>b__0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\WebServiceBasic.cs:line 85
+--- End of stack trace from previous location where exception was thrown ---
+   at MedicalInsurance.WebService.Basic.WebServiceBasic.HIS_InterfaceListAsync(String tradeCode, String inputParameter) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\WebServiceBasic.cs:line 57
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetVerificationCode(String tradeCode, String inputParameter) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 35
+   at MedicalInsurance.Controllers.TestController.GetUserBaseInfo() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 376
+   at MedicalInsurance.Controllers.TestController.<GetOutpatientPerson>b__6_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 173
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/10 星期六 下午 6:10:44】Message:123; StackTrace:   at MedicalInsurance.WebService.Basic.WebServiceBasic.<>c__DisplayClass1_0.<<HIS_InterfaceListAsync>b__0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\WebServiceBasic.cs:line 85
+--- End of stack trace from previous location where exception was thrown ---
+   at MedicalInsurance.WebService.Basic.WebServiceBasic.HIS_InterfaceListAsync(String tradeCode, String inputParameter) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance.WebService.Basic\WebServiceBasic.cs:line 57
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetVerificationCode(String tradeCode, String inputParameter) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 35
+   at MedicalInsurance.Controllers.TestController.GetUserBaseInfo() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 376
+   at MedicalInsurance.Controllers.TestController.<GetOutpatientPerson>b__6_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 173
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/12 星期一 下午 4:22:09】Message:配置服务发现后,服务名称不能为空!; StackTrace:   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetOutpatientDetailPerson(UserInfoDto user, OutpatientDetailParam param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 185
+   at MedicalInsurance.Controllers.TestController.<GetOutpatientDetailPerson>b__7_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 230
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/12 星期一 下午 4:22:53】Message:BeginExecuteNonQuery: CommandText property has not been initialized; StackTrace:   at System.Data.SqlClient.SqlCommand.ValidateCommand(Boolean async, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.BeginExecuteNonQuery(AsyncCallback callback, Object stateObject)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory`1.FromAsync(Func`3 beginMethod, Func`2 endMethod, Object state)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param)
+   at MedicalInsurance.Service.Providers.DataBaseHelpService.InformationInfoSave(UserInfoDto user, List`1 param, InformationParam info) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseHelpService.cs:line 575
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetInformation(UserInfoDto user, InformationParam param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 301
+   at MedicalInsurance.Controllers.TestController.<GetInformation>b__8_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 261
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/8/12 星期一 下午 4:57:14】Message:列名 'OrgCode' 无效。; StackTrace:   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param)
+   at MedicalInsurance.Service.Providers.DataBaseHelpService.GetOutpatientDetailPerson(UserInfoDto user, List`1 param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseHelpService.cs:line 348
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetOutpatientDetailPerson(UserInfoDto user, OutpatientDetailParam param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 188
+   at MedicalInsurance.Controllers.TestController.<GetOutpatientDetailPerson>b__7_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 230
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/9/2 15:55:11】Message:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server); StackTrace:   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at MedicalInsurance.Service.Providers.DataBaseHelpService.GetInpatientInfo(UserInfoDto user, List`1 param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseHelpService.cs:line 426
+   at MedicalInsurance.Service.Providers.WebServiceBasicService.GetInpatientInfo(UserInfoDto user, String infoParam) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\WebServiceBasicService.cs:line 205
+   at MedicalInsurance.Controllers.TestController.<GetInpatientInfo>b__5_0(ApiJsonResultData y) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 92
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/9/2 17:53:25】Message:Sequence contains no elements; StackTrace:   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.ThrowZeroRows(Row row)
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command)
+   at MedicalInsurance.Service.Providers.DataBaseHelpService.SaveMedicalInsuranceDataAllQuery(MedicalInsuranceDataAllParamUIQueryParam param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseHelpService.cs:line 660
+   at MedicalInsurance.Controllers.TestController.<>c__DisplayClass19_0.<<SaveDataAllQuery>b__0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 488
+--- End of stack trace from previous location where exception was thrown ---
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/9/2 17:53:45】Message:Sequence contains no elements; StackTrace:   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.ThrowZeroRows(Row row)
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command)
+   at MedicalInsurance.Service.Providers.DataBaseHelpService.SaveMedicalInsuranceDataAllQuery(MedicalInsuranceDataAllParamUIQueryParam param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseHelpService.cs:line 660
+   at MedicalInsurance.Controllers.TestController.<>c__DisplayClass19_0.<<SaveDataAllQuery>b__0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 488
+--- End of stack trace from previous location where exception was thrown ---
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/9/2 17:54:36】Message:Sequence contains no elements; StackTrace:   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.ThrowZeroRows(Row row)
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command)
+   at MedicalInsurance.Service.Providers.DataBaseHelpService.SaveMedicalInsuranceDataAllQuery(MedicalInsuranceDataAllParamUIQueryParam param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseHelpService.cs:line 660
+   at MedicalInsurance.Controllers.TestController.<>c__DisplayClass19_0.<<SaveDataAllQuery>b__0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 488
+--- End of stack trace from previous location where exception was thrown ---
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/9/2 17:55:17】Message:Sequence contains no elements; StackTrace:   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.ThrowZeroRows(Row row)
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command)
+   at MedicalInsurance.Service.Providers.DataBaseHelpService.SaveMedicalInsuranceDataAllQuery(MedicalInsuranceDataAllParamUIQueryParam param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseHelpService.cs:line 660
+   at MedicalInsurance.Controllers.TestController.<>c__DisplayClass19_0.<<SaveDataAllQuery>b__0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 488
+--- End of stack trace from previous location where exception was thrown ---
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/9/2 18:07:59】Message:Sequence contains no elements; StackTrace:   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at MedicalInsurance.Service.Providers.DataBaseHelpService.SaveMedicalInsuranceDataAllQuery(MedicalInsuranceDataAllParamUIQueryParam param) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseHelpService.cs:line 663
+   at MedicalInsurance.Controllers.TestController.<>c__DisplayClass19_0.<<SaveDataAllQuery>b__0>d.MoveNext() in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 488
+--- End of stack trace from previous location where exception was thrown ---
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217

@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MedicalInsurance</name>
+    </assembly>
+    <members>
+        <member name="T:DapperTast.AuthHelp.JwtAuthorizationFilter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DapperTast.AuthHelp.JwtAuthorizationFilter.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)">
+            <summary>
+            
+            </summary>
+            <param name="next"></param>
+        </member>
+        <member name="M:DapperTast.AuthHelp.JwtAuthorizationFilter.Invoke(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            
+            </summary>
+            <param name="httpContext"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MedicalInsurance.ConfigModel.BaseConfigModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MedicalInsurance.ConfigModel.BaseConfigModel.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MedicalInsurance.ConfigModel.BaseConfigModel.ContentRootPath">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MedicalInsurance.ConfigModel.BaseConfigModel.WebRootPath">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MedicalInsurance.ConfigModel.BaseConfigModel.SetBaseConfig(Microsoft.Extensions.Configuration.IConfiguration,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="config"></param>
+            <param name="contentRootPath"></param>
+            <param name="webRootPath"></param>
+        </member>
+        <member name="T:MedicalInsurance.ConfigModel.JwtAuthConfigModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MedicalInsurance.ConfigModel.JwtAuthConfigModel.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MedicalInsurance.ConfigModel.JwtAuthConfigModel.JWTSecretKey">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MedicalInsurance.ConfigModel.JwtAuthConfigModel.WebExp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MedicalInsurance.ConfigModel.JwtAuthConfigModel.AppExp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MedicalInsurance.ConfigModel.JwtAuthConfigModel.MiniProgramExp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MedicalInsurance.ConfigModel.JwtAuthConfigModel.OtherExp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MedicalInsurance.Controllers.TestController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MedicalInsurance.Controllers.TestController._webServiceBasicService">
+            <summary>
+            基层系统接口
+            </summary>
+        </member>
+        <member name="M:MedicalInsurance.Controllers.TestController.#ctor(MedicalInsurance.Service.Interfaces.IWebServiceBasicService)">
+            <summary>
+             
+            </summary>
+        </member>
+        <member name="M:MedicalInsurance.Controllers.TestController.PageList">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MedicalInsurance.Controllers.TestController.ExecuteSp(MedicalInsurance.Domain.Models.Params.ExecuteSpParam)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MedicalInsurance.Controllers.TestController.Hospitalization">
+            <summary>
+            住院医保上传
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:MedicalInsurance.Controllers.ValuesController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MedicalInsurance.Controllers.ValuesController.GetJWTStr">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:MedicalInsurance.Helper.JwtHelperb">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MedicalInsurance.Helper.JwtHelperb.IssueJWT(MedicalInsurance.Helper.TokenModel)">
+            <summary>
+            颁发JWT字符串
+            </summary>
+            <param name="tokenModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MedicalInsurance.Helper.JwtHelperb.SerializeJWT(System.String)">
+            <summary>
+            解析
+            </summary>
+            <param name="jwtStr"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MedicalInsurance.Helper.TokenModel">
+            <summary>
+            令牌
+            </summary>
+        </member>
+        <member name="P:MedicalInsurance.Helper.TokenModel.Uid">
+            <summary>
+            用户Id
+            </summary>
+        </member>
+        <member name="P:MedicalInsurance.Helper.TokenModel.Role">
+            <summary>
+            身份
+            </summary>
+        </member>
+        <member name="P:MedicalInsurance.Helper.TokenModel.Project">
+            <summary>
+            项目名称
+            </summary>
+        </member>
+        <member name="P:MedicalInsurance.Helper.TokenModel.TokenType">
+            <summary>
+            令牌类型
+            </summary>
+        </member>
+        <member name="T:MedicalInsurance.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MedicalInsurance.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:MedicalInsurance.Program.CreateWebHostBuilder(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MedicalInsurance.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MedicalInsurance.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="env"></param>
+        </member>
+        <member name="P:MedicalInsurance.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MedicalInsurance.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:MedicalInsurance.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+        <member name="T:MedicalInsurance.SwaggerHelp.SwaggerDocTag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MedicalInsurance.SwaggerHelp.SwaggerDocTag.Apply(Swashbuckle.AspNetCore.Swagger.SwaggerDocument,Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext)">
+            <summary>
+            添加附加注释
+            </summary>
+            <param name="swaggerDoc"></param>
+            <param name="context"></param>
+        </member>
+        <member name="M:MedicalInsurance.SwaggerHelp.SwaggerDocTag.GetControllerDesc">
+            <summary>
+            从xml注释中读取控制器注释
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

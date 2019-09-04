@@ -1,0 +1,6 @@
+C:\code\MedicalInsurance\MedicalInsurance\WebService\bin\Debug\netcoreapp2.2\WebService.deps.json
+C:\code\MedicalInsurance\MedicalInsurance\WebService\bin\Debug\netcoreapp2.2\WebService.dll
+C:\code\MedicalInsurance\MedicalInsurance\WebService\obj\Debug\netcoreapp2.2\WebService.csprojAssemblyReference.cache
+C:\code\MedicalInsurance\MedicalInsurance\WebService\obj\Debug\netcoreapp2.2\WebService.csproj.CoreCompileInputs.cache
+C:\code\MedicalInsurance\MedicalInsurance\WebService\obj\Debug\netcoreapp2.2\WebService.AssemblyInfoInputs.cache
+C:\code\MedicalInsurance\MedicalInsurance\WebService\obj\Debug\netcoreapp2.2\WebService.AssemblyInfo.cs
