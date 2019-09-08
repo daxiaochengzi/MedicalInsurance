@@ -413,6 +413,21 @@ namespace MedicalInsurance.Service.Providers
 
             }
         }
+
+        public async Task<int> UpdateInpatientInfoDetail(UpdateInpatientInfoDetail param)
+        {
+            int count = 0;
+                using (var _sqlConnection = new SqlConnection(_connectionString))
+                {
+                //update [dbo].[住院费用] set [DataState]=1,UpdateTime=GETDATE(),[UpdateUserId]= where [费用明细ID]='' and [机构编码]=''
+                _sqlConnection.Open();
+                    count= await _sqlConnection.ExecuteAsync("");
+                    _sqlConnection.Close();
+                }
+
+            return count;
+        }
+
         /// <summary>
         /// 获取住院病人
         /// </summary>
@@ -471,10 +486,10 @@ namespace MedicalInsurance.Service.Providers
 
             }
         }
+
         /// <summary>
         /// 住院病人查询
         /// </summary>
-        /// <param name="numCode"></param>
         /// <returns></returns>
         public async Task<QueryInpatientInfoDto> QueryInpatientInfo(QueryInpatientInfoParam param)
         {
@@ -552,6 +567,7 @@ namespace MedicalInsurance.Service.Providers
         /// <summary>
         /// 医保信息保存
         /// </summary>
+        /// <param name="user"></param>
         /// <param name="param"></param>
         /// <returns></returns>
         public async Task MedicalInsurance(UserInfoDto user, List<MedicalInsuranceDto> param)
@@ -643,7 +659,7 @@ namespace MedicalInsurance.Service.Providers
         {
             using (var _sqlConnection = new SqlConnection(_connectionString))
             {
-                var resultdata = new MedicalInsuranceDataAllDto();
+                var resultData = new MedicalInsuranceDataAllDto();
                 _sqlConnection.Open();
                 string strSql = $@"
                 SELECT [DataAllId]
@@ -661,28 +677,17 @@ namespace MedicalInsurance.Service.Providers
                       ,[DeleteUserId]
                   FROM [dbo].[MedicalInsuranceDataAll] where DataId='{param.DataId}' and  DataType='{param.DataType}' and OrgCode='{param.OrgCode}' and BusinessId='{param.BusinessId}' and  DeleteTime is  null";
                  var data = await _sqlConnection.QueryFirstOrDefaultAsync<MedicalInsuranceDataAllDto>(strSql);
-              
-                //var data = _sqlConnection.QueryMultiple(strSql);
-                //if (data.Read()!=null && !data.IsConsumed)
-                //{
-                //     resultdata = data.Read<MedicalInsuranceDataAllDto>().Single();
-
-
-                    //    _sqlConnection.Close();
-
-                    //}
-
-                    return data!=null?data: resultdata;
+                 return data ?? resultData;
 
 
             }
 
             
         }
-
         /// <summary>
         /// 业务ID
         /// </summary>
+        /// <param name="user"></param>
         /// <param name="param"></param>
         /// <returns></returns>
         public async Task<Int32> DeleteMedicalInsurance(UserInfoDto user,string param)
@@ -704,7 +709,7 @@ namespace MedicalInsurance.Service.Providers
         {
             using (var _sqlConnection = new SqlConnection(_connectionString))
             {
-                Int32 Counts = 0;
+                Int32 counts = 0;
                 _sqlConnection.Open();
                 if (param.Any())
                 {
@@ -716,7 +721,7 @@ namespace MedicalInsurance.Service.Providers
                         string strSql =
                             $@"update [dbo].[基本信息] set  [IsDelete] =1 ,DeleteTime=GETDATE(),DeleteUserId='{user.职员ID}' where [IsDelete]=0 
                                 and [目录编码] in(" + outpatientNum + ")";
-                        var num = await _sqlConnection.ExecuteAsync(strSql, null, transaction);
+                        await _sqlConnection.ExecuteAsync(strSql, null, transaction);
                         string insertSql = "";
                         int mund = 0;
                         foreach (var item in param)
@@ -733,10 +738,10 @@ namespace MedicalInsurance.Service.Providers
 
                         }
 
-                        Counts = await _sqlConnection.ExecuteAsync(insertSql, null, transaction);
+                        counts = await _sqlConnection.ExecuteAsync(insertSql, null, transaction);
                         transaction.Commit();
                     }
-                    catch (Exception ex)
+                    catch (Exception)
                     {
 
                         transaction.Rollback();
@@ -745,9 +750,11 @@ namespace MedicalInsurance.Service.Providers
                     _sqlConnection.Close();
                 }
 
-                return Counts;
+                return counts;
             }
         }
+
+
         private string ListToStr(List<string> param)
         {
             string result = null;

@@ -95,7 +95,7 @@
             基层系统接口
             </summary>
         </member>
-        <member name="M:MedicalInsurance.Controllers.TestController.#ctor(MedicalInsurance.Service.Interfaces.IWebServiceBasicService,MedicalInsurance.Service.Interfaces.IDataBaseHelpService)">
+        <member name="M:MedicalInsurance.Controllers.TestController.#ctor(MedicalInsurance.Service.Interfaces.IWebServiceBasicService,MedicalInsurance.Service.Interfaces.IDataBaseHelpService,MedicalInsurance.Service.Interfaces.IDataBaseSqlServerService)">
             <summary>
              
             </summary>
@@ -185,7 +185,7 @@
             </summary>
             <returns></returns>
         </member>
-        <member name="M:MedicalInsurance.Controllers.TestController.MedicalInsuranceDataAll(MedicalInsurance.Domain.Models.Params.MedicalInsuranceDataAllParam)">
+        <member name="M:MedicalInsurance.Controllers.TestController.SaveMedicalInsuranceDataAll(MedicalInsurance.Domain.Models.Params.MedicalInsuranceDataAllParam)">
             <summary>
             医保交易数据储存
             </summary>
@@ -199,9 +199,30 @@
             <param name="param"></param>
             <returns></returns>
         </member>
-        <member name="M:MedicalInsurance.Controllers.TestController.SaveDataAllQuery(MedicalInsurance.Domain.Models.Params.UI.MedicalInsuranceDataAllParamUIQueryParam)">
+        <member name="M:MedicalInsurance.Controllers.TestController.MedicalInsuranceDataAllQuery(MedicalInsurance.Domain.Models.Params.UI.MedicalInsuranceDataAllParamUIQueryParam)">
             <summary>
             医保反馈数据查询保存
+            </summary>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MedicalInsurance.Controllers.TestController.SaveMedicalInsuranceResidentInfo(MedicalInsurance.Domain.Models.Params.MedicalInsuranceResidentInfoParam)">
+            <summary>
+            医保病人信息保存
+            </summary>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MedicalInsurance.Controllers.TestController.QueryMedicalInsuranceResidentInfo(MedicalInsurance.Domain.Models.Params.QueryMedicalInsuranceResidentInfoParam)">
+            <summary>
+            医保病人信息查询
+            </summary>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MedicalInsurance.Controllers.TestController.UpdateMedicalInsuranceResidentInfo(MedicalInsurance.Domain.Models.Params.UpdateMedicalInsuranceResidentInfoParam)">
+            <summary>
+            更新医保病人信息
             </summary>
             <param name="param"></param>
             <returns></returns>
