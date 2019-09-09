@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
+using MedicalInsurance.Domain.Models.Params.Base;
 
 namespace MedicalInsurance.Domain.Models.Params.UI
 {
-  public  class MedicalInsuranceDataAllParamUIQueryParam
+  public  class MedicalInsuranceDataAllParamUIQueryParam: BaseIniParam
     {/// <summary>
      /// 机构编号
      /// </summary>

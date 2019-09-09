@@ -72,6 +72,7 @@ namespace MedicalInsurance
                 throw StandardException.Caused("10000", "未配置数据库连接字符串");
             //依赖注入
             services.AddScoped<IDataBaseHelpService>(sp => new DataBaseHelpService(connection));
+            services.AddScoped<IDataBaseSqlServerService>(sp => new DataBaseSqlServerService(connection));
             services.AddScoped<IGrammarNewService, GrammarNewService>();
             services.AddScoped<IWebServiceBasic, WebServiceBasic>();
             services.AddScoped<IWebServiceBasicService, WebServiceBasicService>();

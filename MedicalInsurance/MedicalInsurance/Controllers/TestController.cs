@@ -28,13 +28,16 @@ namespace MedicalInsurance.Controllers
         /// </summary>
         private IWebServiceBasicService _webServiceBasicService;
         private IDataBaseHelpService _dataBaseHelpService;
+        private IDataBaseSqlServerService _dataBaseSqlServerService;
         /// <summary>
         ///  
         /// </summary>
-        public TestController(IWebServiceBasicService webServiceBasicService, IDataBaseHelpService idDataBaseHelpService)
+        public TestController(IWebServiceBasicService webServiceBasicService, 
+            IDataBaseHelpService idDataBaseHelpService, IDataBaseSqlServerService idDataBaseSqlServerService)
         {
             _webServiceBasicService = webServiceBasicService;
             _dataBaseHelpService = idDataBaseHelpService;
+            _dataBaseSqlServerService = idDataBaseSqlServerService;
         }
         /// <summary>
         /// 
@@ -399,7 +402,6 @@ namespace MedicalInsurance.Controllers
                 y.Message = "医保信息回写成功";
             });
         }
-
         /// <summary>
         /// 获取用户信息
         /// </summary>
@@ -439,7 +441,7 @@ namespace MedicalInsurance.Controllers
         /// <param name="param"></param>
         /// <returns></returns>
         [HttpPost]
-        public async Task<ApiJsonResultData> QueryInpatientInfo([FromBody] QueryInpatientInfoParam param)
+        public async Task<ApiJsonResultData> QueryInpatientInfo([FromBody]QueryInpatientInfoParam param)
         {
             return await new ApiJsonResultData(ModelState).RunWithTryAsync(async y =>
             {
@@ -475,7 +477,6 @@ namespace MedicalInsurance.Controllers
                 }
             });
         }
-
         /// <summary>
         /// 医保反馈数据查询保存
         /// </summary>
@@ -492,6 +493,53 @@ namespace MedicalInsurance.Controllers
 
             });
         }
+        /// <summary>
+        /// 医保病人信息保存
+        /// </summary>
+        /// <param name="param"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public async Task<ApiJsonResultData> SaveMedicalInsuranceResidentInfo([FromBody] MedicalInsuranceResidentInfoParam param)
+        {
+            return await new ApiJsonResultData(ModelState).RunWithTryAsync(async y =>
+            {
+
+                var data = await _dataBaseSqlServerService.SaveMedicalInsuranceResidentInfo(param);
+                y.Data = data;
+
+            });
+        }
+        /// <summary>
+        /// 医保病人信息查询
+        /// </summary>
+        /// <param name="param"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public async Task<ApiJsonResultData> QueryMedicalInsuranceResidentInfo([FromBody] QueryMedicalInsuranceResidentInfoParam param)
+        {
+            return await new ApiJsonResultData(ModelState).RunWithTryAsync(async y =>
+            {
+                var data = await _dataBaseSqlServerService.QueryMedicalInsuranceResidentInfo(param);
+                y.Data = data;
+
+            });
+        }
+        /// <summary>
+        /// 更新医保病人信息
+        /// </summary>
+        /// <param name="param"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public async Task<ApiJsonResultData> UpdateMedicalInsuranceResidentInfo([FromBody] UpdateMedicalInsuranceResidentInfoParam param)
+        {
+            return await new ApiJsonResultData(ModelState).RunWithTryAsync(async y =>
+            {
+                var data = await _dataBaseSqlServerService.UpdateMedicalInsuranceResidentInfo(param);
+                y.Data = data;
+
+            });
+        }
+        
         /// <summary>
         /// 获取服务器时间
         /// </summary>

@@ -1353,3 +1353,141 @@ The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'Encode
    at MedicalInsurance.Controllers.TestController.<>c.<<GetServiceTime>b__20_0>d.MoveNext() in C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 503
 --- End of stack trace from previous location where exception was thrown ---
    at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/9/6 星期五 下午 2:21:23】Message:Invalid operation. The connection is closed.; StackTrace:   at System.Data.SqlClient.SqlConnection.GetOpenTdsConnection()
+   at System.Data.SqlClient.SqlConnection.BeginTransaction(IsolationLevel iso, String transactionName)
+   at MedicalInsurance.Service.Providers.DataBaseSqlServerService.SaveMedicalInsuranceResidentInfo(MedicalInsuranceResidentInfoParam param) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseSqlServerService.cs:line 40
+   at MedicalInsurance.Controllers.TestController.<>c__DisplayClass21_0.<<SaveMedicalInsuranceResidentInfo>b__0>d.MoveNext() in C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 508
+--- End of stack trace from previous location where exception was thrown ---
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/9/6 星期五 下午 2:22:02】Message:Invalid operation. The connection is closed.; StackTrace:   at System.Data.SqlClient.SqlConnection.GetOpenTdsConnection()
+   at System.Data.SqlClient.SqlConnection.BeginTransaction(IsolationLevel iso, String transactionName)
+   at MedicalInsurance.Service.Providers.DataBaseSqlServerService.SaveMedicalInsuranceResidentInfo(MedicalInsuranceResidentInfoParam param) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseSqlServerService.cs:line 40
+   at MedicalInsurance.Controllers.TestController.<>c__DisplayClass21_0.<<SaveMedicalInsuranceResidentInfo>b__0>d.MoveNext() in C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 508
+--- End of stack trace from previous location where exception was thrown ---
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/9/6 星期五 下午 2:36:34】Message:Invalid operation. The connection is closed.; StackTrace:   at System.Data.SqlClient.SqlConnection.GetOpenTdsConnection()
+   at System.Data.SqlClient.SqlConnection.BeginTransaction(IsolationLevel iso, String transactionName)
+   at MedicalInsurance.Service.Providers.DataBaseSqlServerService.SaveMedicalInsuranceResidentInfo(MedicalInsuranceResidentInfoParam param) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseSqlServerService.cs:line 40
+   at MedicalInsurance.Controllers.TestController.<>c__DisplayClass21_0.<<SaveMedicalInsuranceResidentInfo>b__0>d.MoveNext() in C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 508
+--- End of stack trace from previous location where exception was thrown ---
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/9/6 星期五 下午 2:40:03】Message:“,”附近有语法错误。; StackTrace:   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param)
+   at MedicalInsurance.Service.Providers.DataBaseSqlServerService.SaveMedicalInsuranceResidentInfo(MedicalInsuranceResidentInfoParam param) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseSqlServerService.cs:line 49
+   at MedicalInsurance.Controllers.TestController.<>c__DisplayClass21_0.<<SaveMedicalInsuranceResidentInfo>b__0>d.MoveNext() in C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 508
+--- End of stack trace from previous location where exception was thrown ---
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/9/6 星期五 下午 2:40:21】Message:“,”附近有语法错误。; StackTrace:   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param)
+   at MedicalInsurance.Service.Providers.DataBaseSqlServerService.SaveMedicalInsuranceResidentInfo(MedicalInsuranceResidentInfoParam param) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseSqlServerService.cs:line 49
+   at MedicalInsurance.Controllers.TestController.<>c__DisplayClass21_0.<<SaveMedicalInsuranceResidentInfo>b__0>d.MoveNext() in C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 508
+--- End of stack trace from previous location where exception was thrown ---
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/9/6 星期五 下午 2:41:34】Message:列名 'BusinessId' 无效。
+列名 'DataId' 无效。; StackTrace:   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param)
+   at MedicalInsurance.Service.Providers.DataBaseSqlServerService.SaveMedicalInsuranceResidentInfo(MedicalInsuranceResidentInfoParam param) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseSqlServerService.cs:line 49
+   at MedicalInsurance.Controllers.TestController.<>c__DisplayClass21_0.<<SaveMedicalInsuranceResidentInfo>b__0>d.MoveNext() in C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 508
+--- End of stack trace from previous location where exception was thrown ---
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/9/6 星期五 下午 2:42:45】Message:列名 'BusinessId' 无效。
+列名 'DataId' 无效。; StackTrace:   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param)
+   at MedicalInsurance.Service.Providers.DataBaseSqlServerService.SaveMedicalInsuranceResidentInfo(MedicalInsuranceResidentInfoParam param) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseSqlServerService.cs:line 49
+   at MedicalInsurance.Controllers.TestController.<>c__DisplayClass21_0.<<SaveMedicalInsuranceResidentInfo>b__0>d.MoveNext() in C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 508
+--- End of stack trace from previous location where exception was thrown ---
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/9/6 星期五 下午 2:43:36】Message:列名 'IsDelete' 无效。; StackTrace:   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param)
+   at MedicalInsurance.Service.Providers.DataBaseSqlServerService.SaveMedicalInsuranceResidentInfo(MedicalInsuranceResidentInfoParam param) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseSqlServerService.cs:line 49
+   at MedicalInsurance.Controllers.TestController.<>c__DisplayClass21_0.<<SaveMedicalInsuranceResidentInfo>b__0>d.MoveNext() in C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 508
+--- End of stack trace from previous location where exception was thrown ---
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/9/6 星期五 下午 2:44:17】Message:BeginExecuteNonQuery requires the command to have a transaction when the connection assigned to the command is in a pending local transaction.  The Transaction property of the command has not been initialized.; StackTrace:   at System.Data.SqlClient.SqlCommand.ValidateCommand(Boolean async, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.BeginExecuteNonQuery(AsyncCallback callback, Object stateObject)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl(Func`3 beginMethod, Func`2 endFunction, Action`1 endAction, Object state, TaskCreationOptions creationOptions)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param)
+   at MedicalInsurance.Service.Providers.DataBaseSqlServerService.SaveMedicalInsuranceResidentInfo(MedicalInsuranceResidentInfoParam param) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseSqlServerService.cs:line 67
+   at MedicalInsurance.Controllers.TestController.<>c__DisplayClass21_0.<<SaveMedicalInsuranceResidentInfo>b__0>d.MoveNext() in C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 508
+--- End of stack trace from previous location where exception was thrown ---
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/9/6 星期五 下午 2:45:24】Message:列名 'GETDATE' 无效。
+INSERT 语句中列的数目大于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。; StackTrace:   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param)
+   at MedicalInsurance.Service.Providers.DataBaseSqlServerService.SaveMedicalInsuranceResidentInfo(MedicalInsuranceResidentInfoParam param) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseSqlServerService.cs:line 67
+   at MedicalInsurance.Controllers.TestController.<>c__DisplayClass21_0.<<SaveMedicalInsuranceResidentInfo>b__0>d.MoveNext() in C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 508
+--- End of stack trace from previous location where exception was thrown ---
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/9/6 星期五 下午 2:46:47】Message:列名 'GETDATE' 无效。; StackTrace:   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param)
+   at MedicalInsurance.Service.Providers.DataBaseSqlServerService.SaveMedicalInsuranceResidentInfo(MedicalInsuranceResidentInfoParam param) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseSqlServerService.cs:line 66
+   at MedicalInsurance.Controllers.TestController.<>c__DisplayClass21_0.<<SaveMedicalInsuranceResidentInfo>b__0>d.MoveNext() in C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 508
+--- End of stack trace from previous location where exception was thrown ---
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/9/6 星期五 下午 2:50:44】Message:“,”附近有语法错误。; StackTrace:   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command)
+   at MedicalInsurance.Service.Providers.DataBaseSqlServerService.QueryMedicalInsuranceResidentInfo(QueryMedicalInsuranceResidentInfoParam param) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseSqlServerService.cs:line 112
+   at MedicalInsurance.Controllers.TestController.<>c__DisplayClass22_0.<<QueryMedicalInsuranceResidentInfo>b__0>d.MoveNext() in C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 524
+--- End of stack trace from previous location where exception was thrown ---
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/9/6 星期五 下午 2:51:39】Message:“,”附近有语法错误。; StackTrace:   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command)
+   at MedicalInsurance.Service.Providers.DataBaseSqlServerService.QueryMedicalInsuranceResidentInfo(QueryMedicalInsuranceResidentInfoParam param) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.Service\Providers\DataBaseSqlServerService.cs:line 112
+   at MedicalInsurance.Controllers.TestController.<>c__DisplayClass22_0.<<QueryMedicalInsuranceResidentInfo>b__0>d.MoveNext() in C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 524
+--- End of stack trace from previous location where exception was thrown ---
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
