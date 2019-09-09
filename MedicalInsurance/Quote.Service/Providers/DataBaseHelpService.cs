@@ -73,7 +73,7 @@ namespace MedicalInsurance.Service.Providers
                     {
 
                         transaction.Rollback();
-                        throw;
+                        throw new Exception(exception.Message);
 
                     }
                 }
@@ -294,7 +294,7 @@ namespace MedicalInsurance.Service.Providers
                     {
 
                         transaction.Rollback();
-                        throw;
+                        throw new Exception(exception.Message);
                     }
                 }
 
@@ -352,7 +352,7 @@ namespace MedicalInsurance.Service.Providers
                     catch (Exception exception)
                     {
                         transaction.Rollback();
-                        throw;
+                        throw new Exception(exception.Message);
                     }
                 }
 
@@ -369,7 +369,7 @@ namespace MedicalInsurance.Service.Providers
             {
 
                 _sqlConnection.Open();
-                if (param.Any())
+                if (param.Any())       
                 {
                     IDbTransaction transaction = _sqlConnection.BeginTransaction();
                     try
@@ -382,21 +382,23 @@ namespace MedicalInsurance.Service.Providers
                                  and [费用明细ID] in({outpatientNum})";
                         var num = await _sqlConnection.ExecuteAsync(strSql, null, transaction);
                         string insertSql = "";
+                        int sort = 0;
                         foreach (var item in param)
                         {
+                            sort++;
                             string str = $@"INSERT INTO [dbo].[住院费用](
                                [住院号] ,[费用明细ID] ,[项目名称],[项目编码] ,[项目类别名称] ,[项目类别编码]
                                ,[单位] ,[剂型] ,[规格] ,[单价],[数量],[金额] ,[用量] ,[用法] ,[用药天数]
 		                       ,[医院计价单位] ,[是否进口药品] ,[药品产地] ,[处方号]  ,[费用单据类型] ,[开单科室名称]
 			                   ,[开单科室编码] ,[开单医生姓名],[开单医生编码] ,[开单时间] ,[执行科室名称],[执行科室编码]
                                ,[执行医生姓名] ,[执行医生编码],[执行时间] ,[处方医师] ,[经办人],[执业医师证号]
-                               ,[费用冲销ID],[机构编码],[机构名称] ,[CreateTime] ,[UpdateTime],[IsDelete],[DeleteTime],CreateUserId)
+                               ,[费用冲销ID],[机构编码],[机构名称] ,[CreateTime] ,[UpdateTime],[IsDelete],[DeleteTime],CreateUserId,Sort)
                            VALUES('{item.住院号}','{item.费用明细ID}','{item.项目名称}','{item.项目编码}','{item.项目类别名称}','{item.项目类别编码}'
                                  ,'{item.单位}','{item.剂型}','{item.规格}',{item.单价},{item.数量},{item.金额},'{item.用量}','{item.用法}','{item.用药天数}',
                                  '{item.医院计价单位}','{item.是否进口药品}','{item.药品产地}','{item.处方号}','{item.费用单据类型}','{item.开单科室名称}'
                                  ,'{item.开单科室编码}','{item.开单医生姓名}','{item.开单医生编码}','{item.开单时间}','{item.执行科室名称}','{item.执行科室编码}'
                                  ,'{item.执行医生姓名}','{item.执行医生编码}','{item.执行时间}','{item.处方医师}','{item.经办人}','{item.执业医师证号}'
-                                 ,'{item.费用冲销ID}','{item.机构编码}','{item.机构名称}',GETDATE(),GETDATE(),0,null,'{user.职员ID}'
+                                 ,'{item.费用冲销ID}','{item.机构编码}','{item.机构名称}',GETDATE(),GETDATE(),0,null,'{user.职员ID}',{sort}
                                  );";
                             insertSql += str;
                         }
@@ -407,7 +409,7 @@ namespace MedicalInsurance.Service.Providers
                     {
 
                         transaction.Rollback();
-                        throw;
+                        throw new Exception(exception.Message);
                     }
                 }
 
@@ -480,7 +482,7 @@ namespace MedicalInsurance.Service.Providers
                     {
 
                         transaction.Rollback();
-                        throw;
+                        throw new Exception(exception.Message);
                     }
                 }
 
@@ -643,7 +645,7 @@ namespace MedicalInsurance.Service.Providers
                 {
 
                     transaction.Rollback();
-                    throw;
+                    throw new Exception(exception.Message);
                 }
 
             }

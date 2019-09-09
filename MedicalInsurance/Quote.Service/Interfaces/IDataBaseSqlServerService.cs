@@ -31,5 +31,12 @@ namespace MedicalInsurance.Service.Interfaces
        /// <returns></returns>
        Task<int> UpdateMedicalInsuranceResidentInfo(
            UpdateMedicalInsuranceResidentInfoParam param);
-   }
+       /// <summary>
+       /// 住院病人明细查询
+       /// </summary>
+       /// <param name="param"></param>
+       /// <returns></returns>
+       Task<List<OutpatientDetailQuery>> InpatientInfoDetailQuery(InpatientInfoDetailQueryParam param);
+    }
+ 
 }

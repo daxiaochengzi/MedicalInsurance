@@ -108,7 +108,7 @@ namespace MedicalInsurance.Controllers
         /// 获取住院病人明细费用
         /// </summary>
         /// <returns></returns>
-        [HttpGet]
+        [HttpPost]
         public async Task<ApiJsonResultData> GetInpatientInfoDetail()
         {
             return await new ApiJsonResultData().RunWithTryAsync(async y =>
@@ -128,9 +128,7 @@ namespace MedicalInsurance.Controllers
                     };
                     string inputInpatientInfoJson =
                         JsonConvert.SerializeObject(inputInpatientInfo, Formatting.Indented);
-
                     inpatientInList = await _webServiceBasicService.GetInpatientInfo(verificationCode, inputInpatientInfoJson);
-
                 }
                 if (inpatientInList.Any())
                 {
@@ -140,8 +138,8 @@ namespace MedicalInsurance.Controllers
                         验证码 = verificationCode.验证码,
                         住院号 = inpatientIni.住院号,
                         业务ID = inpatientIni.业务ID,
-                        开始时间 = "2019-04-27 11:09:00",
-                        结束时间 = "2020-04-27 11:09:00",
+                        开始时间 = inpatientIni.入院日期,
+                        结束时间 = inpatientIni.出院日期,
                         状态 = "0"
                     };
                     var data = await _webServiceBasicService.GetInpatientInfoDetail(verificationCode, InpatientInfoDetail);
@@ -402,6 +400,7 @@ namespace MedicalInsurance.Controllers
                 y.Message = "医保信息回写成功";
             });
         }
+
         /// <summary>
         /// 获取用户信息
         /// </summary>
@@ -551,6 +550,21 @@ namespace MedicalInsurance.Controllers
             {// yyyyMMddHHmmss
                 y.Data =new ServiceTimeDto(){DataTime = DateTime.Now.ToString("yyyyMMdd HH:mm:ss") };
                 //var data = await webService.ExecuteSp(param.Params);
+
+            });
+        }
+        /// <summary>
+        /// 住院病人明细查询
+        /// </summary>
+        /// <param name="param"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public async Task<ApiJsonResultData> InpatientInfoDetailQuery([FromBody] InpatientInfoDetailQueryParam param)
+        {
+            return await new ApiJsonResultData().RunWithTryAsync(async y =>
+            {
+                var data = await _dataBaseSqlServerService.InpatientInfoDetailQuery(param);
+                y.Data = data;
 
             });
         }
