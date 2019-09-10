@@ -111,6 +111,13 @@ namespace MedicalInsurance.Service.Interfaces
         /// <returns></returns>
         Task<MedicalInsuranceDataAllDto> SaveMedicalInsuranceDataAllQuery(
             MedicalInsuranceDataAllParamUIQueryParam param);
+        /// <summary>
+        /// 下载医保项目 DownloadD
+        /// </summary>
+        /// <param name="user"></param>
+        /// <param name="param"></param>
+        /// <returns></returns>
+        Task<Int32> PairCode(UserInfoDto user, List<PairCodeDto> param);
 
     }
 }

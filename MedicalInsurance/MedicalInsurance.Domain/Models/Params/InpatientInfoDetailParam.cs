@@ -12,6 +12,9 @@ namespace MedicalInsurance.Domain.Models.Dto
         public string 住院号 { get; set; }
         public string 业务ID { get; set; }
         public string 开始时间 { get; set; }
+        /// <summary>
+        /// 结束时间 不能位空
+        /// </summary>
         public string 结束时间 { get; set; }
         public string 状态 { get; set; }
     }

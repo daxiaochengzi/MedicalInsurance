@@ -756,6 +756,38 @@ namespace MedicalInsurance.Service.Providers
             }
         }
 
+        public async Task<Int32> PairCode(UserInfoDto user,List<PairCodeDto> param)
+        {
+            using (var _sqlConnection = new SqlConnection(_connectionString))
+            {
+                int result = 0;
+                
+                _sqlConnection.Open();
+                if (param.Any())
+                {
+                    string insertSql =null;
+                    foreach (var item in param)
+                    {
+                         insertSql += $@"INSERT INTO [dbo].[社保对码]
+                           ([居民普通门诊报销标志],[居民普通门诊报销限价] ,[操作人员姓名] ,[版本],[状态]
+                            [社保目录类别],[社保目录ID] ,[社保目录编码],[社保目录名称]
+                           ,[拼音],[剂型],[规格],[单位],[生产厂家],[收费级别],[准字号]
+                           ,[新码标志],[限制用药标志] ,[限制支付范围] ,[职工自付比例],[居民自付比例]
+                           ,[备注],[CreateTime])
+                          VALUES(  {Convert.ToInt16(item.CKE889)},{Convert.ToDecimal(item.CKA601)},'{user.职员ID}','y',{Convert.ToInt16(item.AAE100)}
+                                  ,{Convert.ToInt16(item.AKA063)},'{DateTime.Now.ToString("yyyymmddhhmmssfff")}', '{item.AKE001}','{item.AKE002}'
+                                  ,'{item.AKA020}','{item.AKA070}','{item.AKA074}','{item.AKA067}','{item.AKA098}','{item.AKA065}','{item.CKA603}'
+                                  ,{Convert.ToInt16(item.CKE897)},{Convert.ToInt16(item.AKA036)},'{item.CKE599}','{item.AKA069}','{item.CKE899}',
+                                  ,'{item.AAE013}',GETDATE()
+                               )";
+                    }
+
+                    
+                    result = await _sqlConnection.ExecuteAsync(insertSql);
+                }
+                return result;
+            }
+        }
 
         private string ListToStr(List<string> param)
         {
