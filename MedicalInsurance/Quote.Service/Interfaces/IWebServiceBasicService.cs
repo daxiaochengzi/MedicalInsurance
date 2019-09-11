@@ -16,7 +16,7 @@ namespace MedicalInsurance.Service.Interfaces
    /// <returns></returns>
        Task<UserInfoDto> GetVerificationCode(string tradeCode, string inputParameter);
         /// <summary>
-        /// GetCatalog(UserInfoDto user, CatalogParam param)
+        /// 获取住院病人      GetCatalog(UserInfoDto user, CatalogParam param)
         /// </summary>
         /// <param name="infoParam"></param>
         /// <returns></returns>

@@ -73,7 +73,7 @@ namespace MedicalInsurance.Service.Providers
                     {
 
                         transaction.Rollback();
-                        throw;
+                        throw new Exception(exception.Message);
 
                     }
                 }
@@ -294,7 +294,7 @@ namespace MedicalInsurance.Service.Providers
                     {
 
                         transaction.Rollback();
-                        throw;
+                        throw new Exception(exception.Message);
                     }
                 }
 
@@ -352,7 +352,7 @@ namespace MedicalInsurance.Service.Providers
                     catch (Exception exception)
                     {
                         transaction.Rollback();
-                        throw;
+                        throw new Exception(exception.Message);
                     }
                 }
 
@@ -369,7 +369,7 @@ namespace MedicalInsurance.Service.Providers
             {
 
                 _sqlConnection.Open();
-                if (param.Any())
+                if (param.Any())       
                 {
                     IDbTransaction transaction = _sqlConnection.BeginTransaction();
                     try
@@ -382,21 +382,23 @@ namespace MedicalInsurance.Service.Providers
                                  and [费用明细ID] in({outpatientNum})";
                         var num = await _sqlConnection.ExecuteAsync(strSql, null, transaction);
                         string insertSql = "";
+                        int sort = 0;
                         foreach (var item in param)
                         {
+                            sort++;
                             string str = $@"INSERT INTO [dbo].[住院费用](
                                [住院号] ,[费用明细ID] ,[项目名称],[项目编码] ,[项目类别名称] ,[项目类别编码]
                                ,[单位] ,[剂型] ,[规格] ,[单价],[数量],[金额] ,[用量] ,[用法] ,[用药天数]
 		                       ,[医院计价单位] ,[是否进口药品] ,[药品产地] ,[处方号]  ,[费用单据类型] ,[开单科室名称]
 			                   ,[开单科室编码] ,[开单医生姓名],[开单医生编码] ,[开单时间] ,[执行科室名称],[执行科室编码]
                                ,[执行医生姓名] ,[执行医生编码],[执行时间] ,[处方医师] ,[经办人],[执业医师证号]
-                               ,[费用冲销ID],[机构编码],[机构名称] ,[CreateTime] ,[UpdateTime],[IsDelete],[DeleteTime],CreateUserId)
+                               ,[费用冲销ID],[机构编码],[机构名称] ,[CreateTime] ,[UpdateTime],[IsDelete],[DeleteTime],CreateUserId,Sort)
                            VALUES('{item.住院号}','{item.费用明细ID}','{item.项目名称}','{item.项目编码}','{item.项目类别名称}','{item.项目类别编码}'
                                  ,'{item.单位}','{item.剂型}','{item.规格}',{item.单价},{item.数量},{item.金额},'{item.用量}','{item.用法}','{item.用药天数}',
                                  '{item.医院计价单位}','{item.是否进口药品}','{item.药品产地}','{item.处方号}','{item.费用单据类型}','{item.开单科室名称}'
                                  ,'{item.开单科室编码}','{item.开单医生姓名}','{item.开单医生编码}','{item.开单时间}','{item.执行科室名称}','{item.执行科室编码}'
                                  ,'{item.执行医生姓名}','{item.执行医生编码}','{item.执行时间}','{item.处方医师}','{item.经办人}','{item.执业医师证号}'
-                                 ,'{item.费用冲销ID}','{item.机构编码}','{item.机构名称}',GETDATE(),GETDATE(),0,null,'{user.职员ID}'
+                                 ,'{item.费用冲销ID}','{item.机构编码}','{item.机构名称}',GETDATE(),GETDATE(),0,null,'{user.职员ID}',{sort}
                                  );";
                             insertSql += str;
                         }
@@ -407,7 +409,7 @@ namespace MedicalInsurance.Service.Providers
                     {
 
                         transaction.Rollback();
-                        throw;
+                        throw new Exception(exception.Message);
                     }
                 }
 
@@ -480,7 +482,7 @@ namespace MedicalInsurance.Service.Providers
                     {
 
                         transaction.Rollback();
-                        throw;
+                        throw new Exception(exception.Message);
                     }
                 }
 
@@ -643,7 +645,7 @@ namespace MedicalInsurance.Service.Providers
                 {
 
                     transaction.Rollback();
-                    throw;
+                    throw new Exception(exception.Message);
                 }
 
             }
@@ -754,6 +756,38 @@ namespace MedicalInsurance.Service.Providers
             }
         }
 
+        public async Task<Int32> PairCode(UserInfoDto user,List<PairCodeDto> param)
+        {
+            using (var _sqlConnection = new SqlConnection(_connectionString))
+            {
+                int result = 0;
+                
+                _sqlConnection.Open();
+                if (param.Any())
+                {
+                    string insertSql =null;
+                    foreach (var item in param)
+                    {
+                         insertSql += $@"INSERT INTO [dbo].[社保对码]
+                           ([居民普通门诊报销标志],[居民普通门诊报销限价] ,[操作人员姓名] ,[版本],[状态]
+                            [社保目录类别],[社保目录ID] ,[社保目录编码],[社保目录名称]
+                           ,[拼音],[剂型],[规格],[单位],[生产厂家],[收费级别],[准字号]
+                           ,[新码标志],[限制用药标志] ,[限制支付范围] ,[职工自付比例],[居民自付比例]
+                           ,[备注],[CreateTime])
+                          VALUES(  {Convert.ToInt16(item.CKE889)},{Convert.ToDecimal(item.CKA601)},'{user.职员ID}','y',{Convert.ToInt16(item.AAE100)}
+                                  ,{Convert.ToInt16(item.AKA063)},'{DateTime.Now.ToString("yyyymmddhhmmssfff")}', '{item.AKE001}','{item.AKE002}'
+                                  ,'{item.AKA020}','{item.AKA070}','{item.AKA074}','{item.AKA067}','{item.AKA098}','{item.AKA065}','{item.CKA603}'
+                                  ,{Convert.ToInt16(item.CKE897)},{Convert.ToInt16(item.AKA036)},'{item.CKE599}','{item.AKA069}','{item.CKE899}',
+                                  ,'{item.AAE013}',GETDATE()
+                               )";
+                    }
+
+                    
+                    result = await _sqlConnection.ExecuteAsync(insertSql);
+                }
+                return result;
+            }
+        }
 
         private string ListToStr(List<string> param)
         {

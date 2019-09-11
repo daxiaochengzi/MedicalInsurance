@@ -233,6 +233,13 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:MedicalInsurance.Controllers.TestController.InpatientInfoDetailQuery(MedicalInsurance.Domain.Models.Params.InpatientInfoDetailQueryParam)">
+            <summary>
+            住院病人明细查询
+            </summary>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
         <member name="T:MedicalInsurance.Controllers.ValuesController">
             <summary>
             

@@ -1,4 +1,4 @@
-﻿using System;
+﻿   using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -63,9 +63,9 @@ namespace MedicalInsurance.Controllers
         {
             return await new ApiJsonResultData(ModelState).RunWithTryAsync(async y =>
             {
-                MyWebService webService = new MyWebService();
-                var data = await webService.ExecuteSp(param.Params);
-                y.Data = data;
+                //MyWebService webService = new MyWebService();
+                //var data = await webService.ExecuteSp(param.Params);
+               
             });
         }
         /// <summary>
@@ -84,8 +84,8 @@ namespace MedicalInsurance.Controllers
                     {
                         验证码 = verificationCode.验证码,
                         机构编码 = verificationCode.机构编码,
-                        身份证号码 = "510821198604156818",
-                        开始时间 = "2019-04-27 11:09:00",
+                        身份证号码 = "511523198701122345",
+                        开始时间 = "2018-04-27 11:09:00",
                         结束时间 = "2020-04-27 11:09:00",
                         状态 = "0"
                     };
@@ -108,7 +108,7 @@ namespace MedicalInsurance.Controllers
         /// 获取住院病人明细费用
         /// </summary>
         /// <returns></returns>
-        [HttpGet]
+        [HttpPost]
         public async Task<ApiJsonResultData> GetInpatientInfoDetail()
         {
             return await new ApiJsonResultData().RunWithTryAsync(async y =>
@@ -121,16 +121,14 @@ namespace MedicalInsurance.Controllers
                     {
                         验证码 = verificationCode.验证码,
                         机构编码 = verificationCode.机构编码,
-                        身份证号码 = "510821198604156818",
+                        身份证号码 = "511523198701122345",
                         开始时间 = "2019-04-27 11:09:00",
                         结束时间 = "2020-04-27 11:09:00",
                         状态 = "0"
                     };
                     string inputInpatientInfoJson =
                         JsonConvert.SerializeObject(inputInpatientInfo, Formatting.Indented);
-
                     inpatientInList = await _webServiceBasicService.GetInpatientInfo(verificationCode, inputInpatientInfoJson);
-
                 }
                 if (inpatientInList.Any())
                 {
@@ -140,7 +138,7 @@ namespace MedicalInsurance.Controllers
                         验证码 = verificationCode.验证码,
                         住院号 = inpatientIni.住院号,
                         业务ID = inpatientIni.业务ID,
-                        开始时间 = "2019-04-27 11:09:00",
+                        开始时间 = inpatientIni.入院日期,
                         结束时间 = "2020-04-27 11:09:00",
                         状态 = "0"
                     };
@@ -402,6 +400,7 @@ namespace MedicalInsurance.Controllers
                 y.Message = "医保信息回写成功";
             });
         }
+
         /// <summary>
         /// 获取用户信息
         /// </summary>
@@ -554,6 +553,39 @@ namespace MedicalInsurance.Controllers
 
             });
         }
+        /// <summary>
+        /// 住院病人明细查询
+        /// </summary>
+        /// <param name="param"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public async Task<ApiJsonResultData> InpatientInfoDetailQuery([FromBody] InpatientInfoDetailQueryParam param)
+        {
+            return await new ApiJsonResultData().RunWithTryAsync(async y =>
+            {
+                var data = await _dataBaseSqlServerService.InpatientInfoDetailQuery(param);
+                y.Data = data;
+
+            });
+        }
+        /// <summary>
+        /// 医保项目下载
+        /// </summary>
+        /// <param name="param"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public async Task<ApiJsonResultData> PairCodeDownload([FromBody] PairCodeDownloadUiParam param)
+        {
+            return await new ApiJsonResultData().RunWithTryAsync(async y =>
+            {
+                if (param.DownloadData!=null && param.DownloadData.Any())
+                {
+                    var data = await _dataBaseHelpService.PairCode(new UserInfoDto() { 职员ID = param.EmpID }, param.DownloadData);
+                    y.Data = data;
+                }
+            });
+        }
+        
         [NonAction]
         private async Task<UserInfoDto> GetUserBaseInfo()
         {

@@ -36,9 +36,9 @@ C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\WebService\obj\Debug\
 C:\code\git\MedicalInsurance\MedicalInsurance\WebService\bin\Debug\netcoreapp2.1\MedicalInsurance.WebService.deps.json
 C:\code\git\MedicalInsurance\MedicalInsurance\WebService\bin\Debug\netcoreapp2.1\MedicalInsurance.WebService.dll
 C:\code\git\MedicalInsurance\MedicalInsurance\WebService\bin\Debug\netcoreapp2.1\MedicalInsurance.WebService.pdb
-C:\code\git\MedicalInsurance\MedicalInsurance\WebService\obj\Debug\netcoreapp2.1\MedicalInsurance.WebService.csprojAssemblyReference.cache
 C:\code\git\MedicalInsurance\MedicalInsurance\WebService\obj\Debug\netcoreapp2.1\MedicalInsurance.WebService.csproj.CoreCompileInputs.cache
 C:\code\git\MedicalInsurance\MedicalInsurance\WebService\obj\Debug\netcoreapp2.1\MedicalInsurance.WebService.AssemblyInfoInputs.cache
 C:\code\git\MedicalInsurance\MedicalInsurance\WebService\obj\Debug\netcoreapp2.1\MedicalInsurance.WebService.AssemblyInfo.cs
 C:\code\git\MedicalInsurance\MedicalInsurance\WebService\obj\Debug\netcoreapp2.1\MedicalInsurance.WebService.dll
 C:\code\git\MedicalInsurance\MedicalInsurance\WebService\obj\Debug\netcoreapp2.1\MedicalInsurance.WebService.pdb
+C:\code\git\MedicalInsurance\MedicalInsurance\WebService\obj\Debug\netcoreapp2.1\MedicalInsurance.WebService.csprojAssemblyReference.cache

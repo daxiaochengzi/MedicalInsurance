@@ -21,6 +21,13 @@ namespace MedicalInsurance.Domain.Models.Params
         [Required(ErrorMessage = "{0}不能为空!!!")]
         public string ContentJson { get; set; }
         /// <summary>
+        /// 结果内容json
+        /// </summary>
+        [Display(Name = "结果内容json")]
+        [Required(ErrorMessage = "{0}不能为空!!!")]
+      
+        public  string ResultDatajson { get; set; }
+        /// <summary>
         /// 数据类型
         /// </summary>
         public string DataType { get; set; }

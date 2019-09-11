@@ -49,6 +49,7 @@ namespace MedicalInsurance.Service.Providers
                     INSERT INTO [dbo].[MedicalInsuranceResidentInfo]
                                ([DataAllId]
                                ,[ContentJson]
+                               ,[ResultData]
                                ,[DataType]
                                ,[DataId]
                                ,IsDelete
@@ -59,7 +60,7 @@ namespace MedicalInsurance.Service.Providers
                                ,[CreateTime]
                              )
                          VALUES
-                               ('{param.DataAllId}','{param.ContentJson}','{param.DataType}','{param.DataId}',0,
+                               ('{param.DataAllId}','{param.ContentJson}',,'{param.ResultDatajson}','{param.DataType}','{param.DataId}',0,
                                  '{param.BusinessId}','{param.IdCard}','{param.OrgCode}','{param.EmpID}',GETDATE())";
                     counts = await _sqlConnection.ExecuteAsync(strSql, null, transaction);
                   
@@ -68,7 +69,7 @@ namespace MedicalInsurance.Service.Providers
                 catch (Exception e)
                 {
                     transaction.Rollback();
-                    throw;
+                    throw new Exception(e.Message) ;
                 }
 
                 _sqlConnection.Close();
@@ -132,6 +133,8 @@ namespace MedicalInsurance.Service.Providers
                     strSql += $" DataType='{param.DataType}'";
                 if (!string.IsNullOrWhiteSpace(param.ContentJson))
                     strSql += $" ,ContentJson='{param.ContentJson}'";
+                if (!string.IsNullOrWhiteSpace(param.ResultDatajson))
+                    strSql += $" ,ResultDatajson='{param.ResultDatajson}'";
                 if (!string.IsNullOrWhiteSpace(param.DataId))
                     strSql += $" ,DataId='{param.DataId}'";
                 if (!string.IsNullOrWhiteSpace(param.IdCard))
@@ -142,6 +145,74 @@ namespace MedicalInsurance.Service.Providers
                 return data;
             }
         }
+        /// <summary>
+        /// 住院明细查询
+        /// </summary>
+        /// <param name="param"></param>
+        /// <returns></returns>
+        public async Task<List<OutpatientDetailQuery>> InpatientInfoDetailQuery(InpatientInfoDetailQueryParam param)
+        {
+            using (var _sqlConnection = new SqlConnection(_connectionString))
+            {
+                var resultData = new List<OutpatientDetailQuery>();
+                _sqlConnection.Open();
+                
+                string strSql = @"SELECT [Id]
+                                      ,[住院号]
+                                      ,[费用明细ID]
+                                      ,[项目名称]
+                                      ,[项目编码]
+                                      ,[项目类别名称]
+                                      ,[项目类别编码]
+                                      ,[单位]
+                                      ,[剂型]
+                                      ,[规格]
+                                      ,[单价]
+                                      ,[数量]
+                                      ,[金额]
+                                      ,[用量]
+                                      ,[用法]
+                                      ,[用药天数]
+                                      ,[医院计价单位]
+                                      ,[是否进口药品]
+                                      ,[药品产地]
+                                      ,[处方号]
+                                      ,[费用单据类型]
+                                      ,[开单科室名称]
+                                      ,[开单科室编码]
+                                      ,[开单医生姓名]
+                                      ,[开单医生编码]
+                                      ,[开单时间]
+                                      ,[执行科室名称]
+                                      ,[执行科室编码]
+                                      ,[执行医生姓名]
+                                      ,[执行医生编码]
+                                      ,[执行时间]
+                                      ,[处方医师]
+                                      ,[经办人]
+                                      ,[执业医师证号]
+                                      ,[费用冲销ID]
+                                      ,[机构编码]
+                                      ,[机构名称]
+                                      ,[费用时间]
+                                      ,[CreateTime]
+                                      ,[CreateUserId]
+                              FROM [dbo].[住院费用] where ";
+                if (param.IdList != null && param.IdList.Any())
+                {
+                    var idlist = ListToStr(param.IdList);
+                       strSql += $@" 费用明细ID in('{idlist}')";
+                }
+                else
+                {
+                    strSql += $@" 住院号 ='{param.HospitalizationNumber}'";
+                }
+                var data = await _sqlConnection.QueryAsync<OutpatientDetailQuery>(strSql);
+                _sqlConnection.Close();
+                return data.Count() > 0 ? data.ToList() : resultData;
+            }
+        }
+        //   Task GetInpatientInfoDetailDto(UserInfoDto user,List<InpatientInfoDetailDto> param);
 
         private string ListToStr(List<string> param)
         {

@@ -130,11 +130,11 @@ C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\bin\Debug\netcore
 C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\bin\Debug\netcoreapp2.1\MedicalInsurance.WebService.Basic.pdb
 C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\obj\Debug\netcoreapp2.1\MedicalInsurance.csprojAssemblyReference.cache
 C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\obj\Debug\netcoreapp2.1\MedicalInsurance.csproj.CoreCompileInputs.cache
+C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\obj\Debug\netcoreapp2.1\MedicalInsurance.RazorAssemblyInfo.cache
+C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\obj\Debug\netcoreapp2.1\MedicalInsurance.RazorAssemblyInfo.cs
 C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\obj\Debug\netcoreapp2.1\MedicalInsurance.AssemblyInfoInputs.cache
 C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\obj\Debug\netcoreapp2.1\MedicalInsurance.AssemblyInfo.cs
+C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\obj\Debug\netcoreapp2.1\MedicalInsurance.RazorTargetAssemblyInfo.cache
 C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\obj\Debug\netcoreapp2.1\MedicalInsurance.csproj.CopyComplete
 C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\obj\Debug\netcoreapp2.1\MedicalInsurance.dll
 C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\obj\Debug\netcoreapp2.1\MedicalInsurance.pdb
-C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\obj\Debug\netcoreapp2.1\MedicalInsurance.RazorAssemblyInfo.cache
-C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\obj\Debug\netcoreapp2.1\MedicalInsurance.RazorAssemblyInfo.cs
-C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\obj\Debug\netcoreapp2.1\MedicalInsurance.RazorTargetAssemblyInfo.cache

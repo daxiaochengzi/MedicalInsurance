@@ -36,9 +36,9 @@ C:\code\MedicalInsurance\MedicalInsurance\MedicalInsurance\Quote.Core\obj\Debug\
 C:\code\git\MedicalInsurance\MedicalInsurance\Quote.Core\bin\Debug\netcoreapp2.1\MedicalInsurance.Core.deps.json
 C:\code\git\MedicalInsurance\MedicalInsurance\Quote.Core\bin\Debug\netcoreapp2.1\MedicalInsurance.Core.dll
 C:\code\git\MedicalInsurance\MedicalInsurance\Quote.Core\bin\Debug\netcoreapp2.1\MedicalInsurance.Core.pdb
-C:\code\git\MedicalInsurance\MedicalInsurance\Quote.Core\obj\Debug\netcoreapp2.1\MedicalInsurance.Core.csprojAssemblyReference.cache
 C:\code\git\MedicalInsurance\MedicalInsurance\Quote.Core\obj\Debug\netcoreapp2.1\MedicalInsurance.Core.csproj.CoreCompileInputs.cache
 C:\code\git\MedicalInsurance\MedicalInsurance\Quote.Core\obj\Debug\netcoreapp2.1\MedicalInsurance.Core.AssemblyInfoInputs.cache
 C:\code\git\MedicalInsurance\MedicalInsurance\Quote.Core\obj\Debug\netcoreapp2.1\MedicalInsurance.Core.AssemblyInfo.cs
 C:\code\git\MedicalInsurance\MedicalInsurance\Quote.Core\obj\Debug\netcoreapp2.1\MedicalInsurance.Core.dll
 C:\code\git\MedicalInsurance\MedicalInsurance\Quote.Core\obj\Debug\netcoreapp2.1\MedicalInsurance.Core.pdb
+C:\code\git\MedicalInsurance\MedicalInsurance\Quote.Core\obj\Debug\netcoreapp2.1\MedicalInsurance.Core.csprojAssemblyReference.cache
