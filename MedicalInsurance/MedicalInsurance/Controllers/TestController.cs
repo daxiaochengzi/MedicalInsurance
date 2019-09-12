@@ -363,11 +363,11 @@ namespace MedicalInsurance.Controllers
                 var xmlData = new XmlData()
                 {
                     验证码 = userBase.验证码,
-                    机构ID = userBase.机构编码,
+                    机构ID = "51072600000000000000000513435964",
                     操作人员ID = "E075AC49FCE443778F897CF839F3B924",
-                    医保交易码 = "21",
-                    发起交易的动作ID = "",
-                    业务ID = "C8102B5DD65B4AE6B1EDAED12E4E0D80"
+                    医保交易码 = "99",
+                    发起交易的动作ID = "6721F4DA50B349AF9F5F387707C1647A",
+                    业务ID = "BCDB574378604E59BA7C44429AA9E72F"
                 };
                 await _webServiceBasicService.GetXmlData(xmlData);
                 //y.Data = "更新机构" + data + "条";
@@ -383,24 +383,29 @@ namespace MedicalInsurance.Controllers
             return await new ApiJsonResultData(ModelState).RunWithTryAsync(async y =>
             {
                 var userBase = await GetUserBaseInfo();
+              
                 var xmlData = new SaveXmlData()
                 {
                     验证码 = userBase.验证码,
-                    机构ID = param.OrgID,
-                    医保交易码 = param.BsCode,
+                    机构ID =param.OrgID,
+                    医保交易码 =param.BsCode,
                     发起交易的动作ID = param.TransKey,
-                    业务ID = param.BID,
+                    业务ID =param.BID ,
                     医保返回业务号 = param.BusinessNumber,
-                    入参 = param.Participation,
-                    出参 = param.ResultData,
-                    IDCard= param.IDCard,
-                    Remark = param.Remark
+                    //入参 = param.Participation,
+                    //出参 = param.ResultData,
+                    入参 = Base64Check.Check(Base64Check.ToXml("param")) ,
+                    出参 = Base64Check.Check(Base64Check.ToXml("retrueData")),
+                    IDCard = param.IDCard,
+                    Remark = param.Remark,
+                    操作人员ID= param.EmpID ,
                 };
+              
+               
                 await _webServiceBasicService.SaveXmlData(xmlData);
                 y.Message = "医保信息回写成功";
             });
         }
-
         /// <summary>
         /// 获取用户信息
         /// </summary>

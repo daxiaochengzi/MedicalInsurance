@@ -635,7 +635,7 @@ namespace MedicalInsurance.Service.Providers
                    ,OrgCode
                    ,IDCard
                     )
-                VALUES ('{param.DataAllId}','{param.ParticipationJson}','{param.DataType}','{param.DataId}'
+                VALUES ('{param.DataAllId}','{param.ParticipationJson}','{param.ResultDataJson}','{param.DataType}','{param.DataId}'
                         , '{param.Remark}','{param.CreateUserId}', GETDATE(),'{param.BusinessId}'
                         ,'{param.HisMedicalInsuranceId}','{param.OrgCode}','{param.IDCard}')";
                     var nums = await _sqlConnection.ExecuteAsync(insertSql, null, transaction);

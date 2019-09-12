@@ -41,4 +41,3 @@ C:\code\git\MedicalInsurance\MedicalInsurance\WebService\obj\Debug\netcoreapp2.1
 C:\code\git\MedicalInsurance\MedicalInsurance\WebService\obj\Debug\netcoreapp2.1\MedicalInsurance.WebService.AssemblyInfo.cs
 C:\code\git\MedicalInsurance\MedicalInsurance\WebService\obj\Debug\netcoreapp2.1\MedicalInsurance.WebService.dll
 C:\code\git\MedicalInsurance\MedicalInsurance\WebService\obj\Debug\netcoreapp2.1\MedicalInsurance.WebService.pdb
-C:\code\git\MedicalInsurance\MedicalInsurance\WebService\obj\Debug\netcoreapp2.1\MedicalInsurance.WebService.csprojAssemblyReference.cache

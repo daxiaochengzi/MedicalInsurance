@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding= "GB2312"?>
+
+<ROW> 
+  <PO_GRSHBZH>个人编号</PO_GRSHBZH>  
+  <PO_XZQH>行政区划</PO_XZQH>  
+  <PO_XM>姓名</PO_XM>  
+  <PO_XB>性别</PO_XB>  
+  <PO_CSNY>出生日期</PO_CSNY>  
+  <PO_XZLX>险种类型</PO_XZLX>  
+  <PO_CBZT>参保状态</PO_CBZT>  
+  <PO_YBTSZT>报销状态</PO_YBTSZT>  
+  <PO_YBBXZTSM>报销状态说明</PO_YBBXZTSM>  
+  <PO_RYFL>人员分类</PO_RYFL>  
+  <PO_LXDZ>联系地址</PO_LXDZ>  
+  <PO_LXDH>联系电话</PO_LXDH>  
+  <PO_SFZH>身份证号</PO_SFZH>  
+  <PO_SZNL>实足年龄</PO_SZNL>  
+  <PO_SQMC>社区名称</PO_SQMC>  
+  <PO_JBZHYE>居民医保账户余额</PO_JBZHYE>  
+  <PO_ZGZHYE>职工医保账户余额</PO_ZGZHYE>  
+  <PO_MTYE>门特余额</PO_MTYE>  
+  <PO_PKHBZ>建卡贫困户标志</PO_PKHBZ>  
+  <PO_MZJZLB>重点救助对象类别</PO_MZJZLB>  
+  <PO_MZYFLB>重点优抚对象类别</PO_MZYFLB>  
+  <PO_MZRDD>民政特殊人员认定地</PO_MZRDD>  
+  <PO_TCZFYE>统筹支付余额</PO_TCZFYE>  
+  <PO_FHZ>过程返回值</PO_FHZ>  
+  <PO_MSG>系统错误信息</PO_MSG> 
+</ROW>

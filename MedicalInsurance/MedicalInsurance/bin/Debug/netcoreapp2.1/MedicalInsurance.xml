@@ -240,6 +240,13 @@
             <param name="param"></param>
             <returns></returns>
         </member>
+        <member name="M:MedicalInsurance.Controllers.TestController.PairCodeDownload(MedicalInsurance.Domain.Models.Params.UI.PairCodeDownloadUiParam)">
+            <summary>
+            医保项目下载
+            </summary>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
         <member name="T:MedicalInsurance.Controllers.ValuesController">
             <summary>
             
@@ -249,6 +256,25 @@
             <summary>
             
             </summary>
+            <returns></returns>
+        </member>
+        <member name="T:MedicalInsurance.Helper.Base64Check">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MedicalInsurance.Helper.Base64Check.Check(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MedicalInsurance.Helper.Base64Check.ToXml(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="param"></param>
             <returns></returns>
         </member>
         <member name="T:MedicalInsurance.Helper.JwtHelperb">

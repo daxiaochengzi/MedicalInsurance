@@ -76,7 +76,7 @@ namespace MedicalInsurance
             services.AddScoped<IGrammarNewService, GrammarNewService>();
             services.AddScoped<IWebServiceBasic, WebServiceBasic>();
             services.AddScoped<IWebServiceBasicService, WebServiceBasicService>();
-
+            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             #region Swagger
 
             services.AddSwaggerGen(options =>

@@ -39,7 +39,7 @@ namespace MedicalInsurance.WebService.Basic
                 if (resultData != "" && resultData != null)
                 {
                     var resultDto = JsonConvert.DeserializeObject<ResultDataDto>(resultData);
-
+                 
                     if (resultDto.Result == "0")
                     {
                         throw new Exception("[" + operatorId + "]" + resultDto.Msg);
