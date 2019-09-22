@@ -49,7 +49,7 @@ namespace MedicalInsurance.Domain.Models.Params
         /// 身份证
         /// </summary>
       
-        public string IDCard { get; set; }
+        public string IdCard { get; set; }
 
     }
 }

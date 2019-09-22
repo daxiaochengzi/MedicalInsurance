@@ -308,7 +308,6 @@ namespace MedicalInsurance.Service.Providers
                 //保存基础信息
                 await _dataBaseHelpService.InformationInfoSave(user,result, param);
             }
-
             return result;
         }
         /// <summary>
@@ -318,9 +317,7 @@ namespace MedicalInsurance.Service.Providers
         /// <returns></returns>
         public async Task GetXmlData(XmlData param)
         {
-
             var data = await _webServiceBasic.HIS_InterfaceListAsync("39", JsonConvert.SerializeObject(param), param.操作人员ID);
-
         }
         /// <summary>
         /// 获取医保构建参数
@@ -345,7 +342,7 @@ namespace MedicalInsurance.Service.Providers
                     ResultDataJson = param.出参,
                     HisMedicalInsuranceId = param.发起交易的动作ID,
                     Remark= param.Remark,
-                    IDCard= param.IDCard,
+                    IdCard= param.IDCard,
 
                 };
                 await _dataBaseHelpService.SaveMedicalInsuranceDataAll(saveParam);

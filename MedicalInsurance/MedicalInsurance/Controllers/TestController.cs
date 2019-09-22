@@ -84,7 +84,7 @@ namespace MedicalInsurance.Controllers
                     {
                         验证码 = verificationCode.验证码,
                         机构编码 = verificationCode.机构编码,
-                        身份证号码 = "511523198701122345",
+                        身份证号码 = "512501195802085180",
                         开始时间 = "2018-04-27 11:09:00",
                         结束时间 = "2020-04-27 11:09:00",
                         状态 = "0"
@@ -426,7 +426,7 @@ namespace MedicalInsurance.Controllers
         {
             return await new ApiJsonResultData(ModelState).RunWithTryAsync(async y =>
             {
-                var userBase = await GetUserBaseInfo();
+                //var userBase = await GetUserBaseInfo();
                 //var paramData=new MedicalInsuranceDataAllParam()
                 //{ DataAllId = Guid.NewGuid().ToString("N").ToUpper(),
                 //  ParticipationJson  = "123",
@@ -590,7 +590,24 @@ namespace MedicalInsurance.Controllers
                 }
             });
         }
-        
+        /// <summary>
+        /// 单病种下载
+        /// </summary>
+        /// <param name="param"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public async Task<ApiJsonResultData> SingleResidentInfoDownload([FromBody] SingleResidentInfoDownloadUIParam param)
+        {
+            return await new ApiJsonResultData().RunWithTryAsync(async y =>
+            {
+                if (param.DownloadData != null && param.DownloadData.Any())
+                {
+                    var data = await _dataBaseSqlServerService.SingleResidentInfoDownload(new UserInfoDto() { 职员ID = param.EmpID }, param.DownloadData);
+                    y.Data = data;
+                }
+            });
+        }
+
         [NonAction]
         private async Task<UserInfoDto> GetUserBaseInfo()
         {

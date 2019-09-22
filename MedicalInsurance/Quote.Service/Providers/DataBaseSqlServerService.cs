@@ -212,9 +212,53 @@ namespace MedicalInsurance.Service.Providers
                 return data.Count() > 0 ? data.ToList() : resultData;
             }
         }
-        //   Task GetInpatientInfoDetailDto(UserInfoDto user,List<InpatientInfoDetailDto> param);
+        /// <summary>
+        /// 单病种下载
+        /// </summary>
+        /// <param name="user"></param>
+        /// <param name="param"></param>
+        /// <returns></returns>
+        public async Task<Int32> SingleResidentInfoDownload(UserInfoDto user, List<SingleResidentInfoDto> param)
+        {
+            using (var _sqlConnection = new SqlConnection(_connectionString))
+            {
+                int result = 0;
 
-        private string ListToStr(List<string> param)
+                _sqlConnection.Open();
+                if (param.Any())
+                {
+                    string insertSql = null;
+                    foreach (var item in param)
+                    {
+                        insertSql += $@"
+                                INSERT INTO [dbo].[SingleResidentInfo]
+                                ([Id],[SpecialDiseasesCode],[Name],[ProjectCode] ,[CreateTime],[CreateUserId])
+                                VALUES( '{item.Id}','{item.SpecialDiseasesCode}','{item.Name}','{item.ProjectCode}',GETDATE())";
+                    }
+                    result = await _sqlConnection.ExecuteAsync(insertSql);
+                }
+                return result;
+            }
+        }
+
+       public async Task<SingleResidentInfoDto> SingleResidentInfoQuery(SingleResidentInfQueryUiParam param)
+        {
+        using (var _sqlConnection = new SqlConnection(_connectionString))
+
+        {
+            var resultData = new SingleResidentInfoDto();
+            _sqlConnection.Open();
+            string strSql = $@" select top 1
+                       [Id],[SpecialDiseasesCode],[Name],[ProjectCode]
+                       from [dbo].[SingleResidentInfo]
+                       where IsDelete=0 and SpecialDiseasesCode='{param.SpecialDiseasesCode}'";
+            var data = await _sqlConnection.QueryFirstOrDefaultAsync<SingleResidentInfoDto>(strSql);
+            _sqlConnection.Close();
+            return data != null ? data : resultData;
+        }
+}
+
+private string ListToStr(List<string> param)
         {
             string result = null;
             if (param.Any())

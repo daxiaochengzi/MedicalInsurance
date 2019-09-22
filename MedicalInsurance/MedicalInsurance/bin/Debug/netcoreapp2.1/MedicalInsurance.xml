@@ -247,6 +247,13 @@
             <param name="param"></param>
             <returns></returns>
         </member>
+        <member name="M:MedicalInsurance.Controllers.TestController.SingleResidentInfoDownload(MedicalInsurance.Domain.Models.Params.UI.SingleResidentInfoDownloadUIParam)">
+            <summary>
+            单病种下载
+            </summary>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
         <member name="T:MedicalInsurance.Controllers.ValuesController">
             <summary>
             

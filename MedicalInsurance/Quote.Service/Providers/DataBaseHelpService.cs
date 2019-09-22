@@ -637,7 +637,7 @@ namespace MedicalInsurance.Service.Providers
                     )
                 VALUES ('{param.DataAllId}','{param.ParticipationJson}','{param.ResultDataJson}','{param.DataType}','{param.DataId}'
                         , '{param.Remark}','{param.CreateUserId}', GETDATE(),'{param.BusinessId}'
-                        ,'{param.HisMedicalInsuranceId}','{param.OrgCode}','{param.IDCard}')";
+                        ,'{param.HisMedicalInsuranceId}','{param.OrgCode}','{param.IdCard}')";
                     var nums = await _sqlConnection.ExecuteAsync(insertSql, null, transaction);
                     transaction.Commit();
                 }
@@ -755,7 +755,6 @@ namespace MedicalInsurance.Service.Providers
                 return counts;
             }
         }
-
         public async Task<Int32> PairCode(UserInfoDto user,List<PairCodeDto> param)
         {
             using (var _sqlConnection = new SqlConnection(_connectionString))
@@ -788,6 +787,7 @@ namespace MedicalInsurance.Service.Providers
                 return result;
             }
         }
+      
 
         private string ListToStr(List<string> param)
         {
