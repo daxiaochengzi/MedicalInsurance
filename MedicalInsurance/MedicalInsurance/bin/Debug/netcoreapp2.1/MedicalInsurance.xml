@@ -238,7 +238,7 @@
             住院病人明细查询
             </summary>
             <param name="param"></param>
-            <returns></returns>
+            <returns></returns> 
         </member>
         <member name="M:MedicalInsurance.Controllers.TestController.PairCodeDownload(MedicalInsurance.Domain.Models.Params.UI.PairCodeDownloadUiParam)">
             <summary>
@@ -260,6 +260,12 @@
             </summary>
         </member>
         <member name="M:MedicalInsurance.Controllers.ValuesController.GetJWTStr">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MedicalInsurance.Controllers.ValuesController.GetDataQuery(MedicalInsurance.Domain.Models.Params.UI.TableIni)">
             <summary>
             
             </summary>

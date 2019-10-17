@@ -46,6 +46,11 @@ namespace Quote.AspNetCore
         /// </value>
         [JsonProperty("success")]
         public bool Success { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public int Total { get; set; }
+        public object Rows { get; set; }
 
         /// <summary>
         /// Gets or sets the messages.

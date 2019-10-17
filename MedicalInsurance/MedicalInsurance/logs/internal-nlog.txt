@@ -2027,3 +2027,27 @@ INSERT 语句中列的数目大于 VALUES 子句中指定的值的数目。VALUE
    at MedicalInsurance.Controllers.TestController.<>c__DisplayClass18_0.<<SaveMedicalInsuranceDataAll>b__0>d.MoveNext() in C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance\Controllers\TestController.cs:line 429
 --- End of stack trace from previous location where exception was thrown ---
    at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 217
+【2019/10/16 星期三 上午 11:36:42】Message:Could not load file or assembly 'BenDingService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. 试图加载格式不正确的程序。; StackTrace:   at MedicalInsurance.Controllers.TestController.<>c.<<ExecuteSp>b__5_0>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at MedicalInsurance.Controllers.TestController.<>c.<ExecuteSp>b__5_0(ApiJsonResultData y)
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 222
+【2019/10/16 星期三 上午 11:40:19】Message:Could not load file or assembly 'BenDingService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. 试图加载格式不正确的程序。; StackTrace:   at MedicalInsurance.Controllers.TestController.<>c.<<ExecuteSp>b__5_0>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at MedicalInsurance.Controllers.TestController.<>c.<ExecuteSp>b__5_0(ApiJsonResultData y)
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 222
+【2019/10/16 星期三 上午 11:42:20】Message:Could not load file or assembly 'BenDingService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. 试图加载格式不正确的程序。; StackTrace:   at MedicalInsurance.Controllers.TestController.<>c.<<ExecuteSp>b__5_0>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at MedicalInsurance.Controllers.TestController.<>c.<ExecuteSp>b__5_0(ApiJsonResultData y)
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 222
+【2019/10/16 星期三 上午 11:44:00】Message:Could not load file or assembly 'BenDingService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. 试图加载格式不正确的程序。; StackTrace:   at MedicalInsurance.Controllers.TestController.<>c.<<ExecuteSp>b__5_0>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at MedicalInsurance.Controllers.TestController.<>c.<ExecuteSp>b__5_0(ApiJsonResultData y)
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 222
+【2019/10/16 星期三 上午 11:44:29】Message:Could not load file or assembly 'BenDingService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. 试图加载格式不正确的程序。; StackTrace:   at MedicalInsurance.Controllers.TestController.<>c.<<ExecuteSp>b__5_0>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at MedicalInsurance.Controllers.TestController.<>c.<ExecuteSp>b__5_0(ApiJsonResultData y)
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 222
+【2019/10/16 星期三 下午 3:51:44】Message:Could not load file or assembly 'ClassLibraryTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. 试图加载格式不正确的程序。; StackTrace:   at MedicalInsurance.Controllers.TestController.<>c.<<ExecuteSp>b__5_0>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at MedicalInsurance.Controllers.TestController.<>c.<ExecuteSp>b__5_0(ApiJsonResultData y)
+   at Quote.AspNetCore.ApiJsonResultEntryExtensions.RunWithTryAsync(ApiJsonResultData jsonResultEntry, Func`2 runMethod) in C:\code\git\MedicalInsurance\MedicalInsurance\Quote.AspNetCore\ApiJsonResultData.cs:line 222

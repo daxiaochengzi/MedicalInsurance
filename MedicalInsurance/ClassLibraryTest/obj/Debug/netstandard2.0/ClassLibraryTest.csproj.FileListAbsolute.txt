@@ -1,0 +1,9 @@
+C:\code\git\MedicalInsurance\MedicalInsurance\ClassLibraryTest\bin\Debug\netstandard2.0\ClassLibraryTest.deps.json
+C:\code\git\MedicalInsurance\MedicalInsurance\ClassLibraryTest\bin\Debug\netstandard2.0\ClassLibraryTest.dll
+C:\code\git\MedicalInsurance\MedicalInsurance\ClassLibraryTest\bin\Debug\netstandard2.0\ClassLibraryTest.pdb
+C:\code\git\MedicalInsurance\MedicalInsurance\ClassLibraryTest\obj\Debug\netstandard2.0\ClassLibraryTest.csprojAssemblyReference.cache
+C:\code\git\MedicalInsurance\MedicalInsurance\ClassLibraryTest\obj\Debug\netstandard2.0\ClassLibraryTest.csproj.CoreCompileInputs.cache
+C:\code\git\MedicalInsurance\MedicalInsurance\ClassLibraryTest\obj\Debug\netstandard2.0\ClassLibraryTest.AssemblyInfoInputs.cache
+C:\code\git\MedicalInsurance\MedicalInsurance\ClassLibraryTest\obj\Debug\netstandard2.0\ClassLibraryTest.AssemblyInfo.cs
+C:\code\git\MedicalInsurance\MedicalInsurance\ClassLibraryTest\obj\Debug\netstandard2.0\ClassLibraryTest.dll
+C:\code\git\MedicalInsurance\MedicalInsurance\ClassLibraryTest\obj\Debug\netstandard2.0\ClassLibraryTest.pdb

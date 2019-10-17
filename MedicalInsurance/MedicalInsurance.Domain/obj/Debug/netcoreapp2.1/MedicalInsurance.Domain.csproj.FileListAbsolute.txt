@@ -41,3 +41,6 @@ C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance.Domain\obj\Debug\
 C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance.Domain\obj\Debug\netcoreapp2.1\MedicalInsurance.Domain.dll
 C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance.Domain\obj\Debug\netcoreapp2.1\MedicalInsurance.Domain.pdb
 C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance.Domain\obj\Debug\netcoreapp2.1\MedicalInsurance.Domain.csprojAssemblyReference.cache
+C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance.Domain\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance.Domain\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\code\git\MedicalInsurance\MedicalInsurance\MedicalInsurance.Domain\obj\Debug\netcoreapp2.1\MedicalInsurance.Domain.csproj.CopyComplete

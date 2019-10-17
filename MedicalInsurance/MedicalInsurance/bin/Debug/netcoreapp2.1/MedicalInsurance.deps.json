@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "99eda742cb90caba56ecbf3ea559d1b28c7b6973"
+    "signature": "3e4d045121b8105720f74c78681cfaad79f2cee2"
   },
   "compilationOptions": {
     "defines": [
@@ -11,7 +11,7 @@
       "NETCOREAPP2_1"
     ],
     "languageVersion": "",
-    "platform": "",
+    "platform": "AnyCPU",
     "allowUnsafe": false,
     "warningsAsErrors": false,
     "optimize": false,
@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v2.1": {
       "MedicalInsurance/1.0.0": {
         "dependencies": {
+          "ClassLibraryTest": "1.0.0",
           "Dapper": "1.50.1",
           "MedicalInsurance.AspNetCore": "1.0.0",
           "MedicalInsurance.Domain": "1.0.0",
@@ -855,6 +856,13 @@
           }
         }
       },
+      "System.Runtime.Loader/4.3.0": {
+        "dependencies": {
+          "System.IO": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
       "System.Runtime.Serialization.Primitives/4.3.0": {
         "dependencies": {
           "System.Resources.ResourceManager": "4.3.0",
@@ -1008,6 +1016,18 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0"
+        }
+      },
+      "ClassLibraryTest/1.0.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "System.Runtime.Loader": "4.3.0"
+        },
+        "runtime": {
+          "ClassLibraryTest.dll": {}
+        },
+        "compile": {
+          "ClassLibraryTest.dll": {}
         }
       },
       "MedicalInsurance.AspNetCore/1.0.0": {
@@ -4189,6 +4209,13 @@
       "path": "system.runtime.interopservices.runtimeinformation/4.3.0",
       "hashPath": "system.runtime.interopservices.runtimeinformation.4.3.0.nupkg.sha512"
     },
+    "System.Runtime.Loader/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DHMaRn8D8YCK2GG2pw+UzNxn/OHVfaWx7OTLBD/hPegHZZgcZh3H6seWegrC4BYwsfuGrywIuT+MQs+rPqRLTQ==",
+      "path": "system.runtime.loader/4.3.0",
+      "hashPath": "system.runtime.loader.4.3.0.nupkg.sha512"
+    },
     "System.Runtime.Serialization.Primitives/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -4265,6 +4292,11 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "ClassLibraryTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "MedicalInsurance.AspNetCore/1.0.0": {
       "type": "project",

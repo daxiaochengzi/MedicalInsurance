@@ -1,0 +1,6 @@
+C:\code\git\MedicalInsurance\MedicalInsurance\BenDingService\bin\Debug\BenDingService.dll
+C:\code\git\MedicalInsurance\MedicalInsurance\BenDingService\bin\Debug\BenDingService.pdb
+C:\code\git\MedicalInsurance\MedicalInsurance\BenDingService\obj\Debug\BenDingService.csproj.CoreCompileInputs.cache
+C:\code\git\MedicalInsurance\MedicalInsurance\BenDingService\obj\Debug\BenDingService.dll
+C:\code\git\MedicalInsurance\MedicalInsurance\BenDingService\obj\Debug\BenDingService.pdb
+C:\code\git\MedicalInsurance\MedicalInsurance\BenDingService\obj\Debug\BenDingService.csprojAssemblyReference.cache

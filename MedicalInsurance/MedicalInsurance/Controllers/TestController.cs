@@ -1,4 +1,4 @@
-﻿   using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -20,7 +20,6 @@ namespace MedicalInsurance.Controllers
     /// </summary>
     //[Authorize]
     [Route("[controller]/[action]")]
-
     public class TestController : ControllerBase
     {
         /// <summary>
@@ -65,7 +64,7 @@ namespace MedicalInsurance.Controllers
             {
                 //MyWebService webService = new MyWebService();
                 //var data = await webService.ExecuteSp(param.Params);
-               
+              //var data=  TestEg.Test(1,2);
             });
         }
         /// <summary>
@@ -543,7 +542,6 @@ namespace MedicalInsurance.Controllers
 
             });
         }
-        
         /// <summary>
         /// 获取服务器时间
         /// </summary>
@@ -562,7 +560,7 @@ namespace MedicalInsurance.Controllers
         /// 住院病人明细查询
         /// </summary>
         /// <param name="param"></param>
-        /// <returns></returns>
+        /// <returns></returns> 
         [HttpPost]
         public async Task<ApiJsonResultData> InpatientInfoDetailQuery([FromBody] InpatientInfoDetailQueryParam param)
         {
@@ -607,7 +605,6 @@ namespace MedicalInsurance.Controllers
                 }
             });
         }
-
         [NonAction]
         private async Task<UserInfoDto> GetUserBaseInfo()
         {
